@@ -258,5 +258,3 @@ public:
     }
 #endif
 };
-
-REGISTER_TEST(TEST_CLASS);

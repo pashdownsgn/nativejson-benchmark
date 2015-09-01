@@ -76,7 +76,7 @@ solution "benchmark"
 		
 	configuration "gmake"
 		buildoptions "-march=native -Wall -Wextra"
-		links { "boost_system", "boost_thread-mt", "boost_locale-mt" } 
+--		links { "boost_system", "boost_thread-mt", "boost_locale-mt" } 
 
 	project "jsonclibs"
 		kind "StaticLib"
@@ -178,7 +178,7 @@ solution "jsonstat"
 
 	configuration "gmake"
 		buildoptions "-march=native -Wall -Wextra"
-		links { "boost_system", "boost_thread-mt", "boost_locale-mt" } 
+--		links { "boost_system", "boost_thread-mt", "boost_locale-mt" } 
 
 	project "jsonclibs2"
 		kind "StaticLib"

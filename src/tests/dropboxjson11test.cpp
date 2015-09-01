@@ -6,7 +6,9 @@
 #define snprintf _snprintf
 #endif
 
-#include "dropbox-json11/json11.cpp"
+#include <iostream>
+
+#include "dropbox-json11/json11.hpp"
 
 using namespace json11;
 

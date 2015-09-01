@@ -1,0 +1,2538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA8245E11B953D4700546050 /* json11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB28C8B1B95268E00DF52FD /* json11.cpp */; };
+		DA8245E21B953DA200546050 /* memorystat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2995E1B95278A00DF52FD /* memorystat.cpp */; };
+		DA8245E31B953DA300546050 /* memorystat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2995E1B95278A00DF52FD /* memorystat.cpp */; };
+		DA8245E41B953DA300546050 /* memorystat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2995E1B95278A00DF52FD /* memorystat.cpp */; };
+		DA8245E81B964DB000546050 /* rapidjsonvanillatest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA8245E51B964D4300546050 /* rapidjsonvanillatest.cpp */; };
+		DA8246021B9657A800546050 /* memorystat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2995E1B95278A00DF52FD /* memorystat.cpp */; };
+		DA82460A1B9657A800546050 /* jsonstatmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2995A1B95275300DF52FD /* jsonstatmain.cpp */; };
+		DA82462A1B965BD100546050 /* memorystat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2995E1B95278A00DF52FD /* memorystat.cpp */; };
+		DA8246321B965BD100546050 /* jsonstatmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2995A1B95275300DF52FD /* jsonstatmain.cpp */; };
+		DA8246521B965C5D00546050 /* memorystat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2995E1B95278A00DF52FD /* memorystat.cpp */; };
+		DA82465A1B965C5D00546050 /* jsonstatmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2995A1B95275300DF52FD /* jsonstatmain.cpp */; };
+		DA8246631B965CE900546050 /* rapidjsonvanillatest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA8245E51B964D4300546050 /* rapidjsonvanillatest.cpp */; };
+		DA8246641B965CED00546050 /* rapidjsonautoutftest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2993C1B95270F00DF52FD /* rapidjsonautoutftest.cpp */; };
+		DA8246651B965CF300546050 /* rapidjsonfullprectest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2993D1B95270F00DF52FD /* rapidjsonfullprectest.cpp */; };
+		DA8246661B965CFB00546050 /* rapidjsoninsitutest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2993E1B95270F00DF52FD /* rapidjsoninsitutest.cpp */; };
+		DAB28B251B951A3000DF52FD /* dropboxjson11test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB28B241B951A3000DF52FD /* dropboxjson11test.cpp */; };
+		DAB297151B95269100DF52FD /* json11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB28C8B1B95268E00DF52FD /* json11.cpp */; };
+		DAB2995B1B95275300DF52FD /* jsonstatmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2995A1B95275300DF52FD /* jsonstatmain.cpp */; };
+		DAB29BCB1B95299400DF52FD /* jsonstatmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2995A1B95275300DF52FD /* jsonstatmain.cpp */; };
+		DAB29C4A1B9538E300DF52FD /* memorystat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2995E1B95278A00DF52FD /* memorystat.cpp */; };
+		DAB29C541B9538F700DF52FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2995D1B95278A00DF52FD /* main.cpp */; };
+		DAB29C551B95392700DF52FD /* dropboxjson11test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB28B241B951A3000DF52FD /* dropboxjson11test.cpp */; };
+		DAB29C561B95392C00DF52FD /* nlohmanntest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2993B1B95270F00DF52FD /* nlohmanntest.cpp */; };
+		DAB29C571B95392E00DF52FD /* nlohmanntest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2993B1B95270F00DF52FD /* nlohmanntest.cpp */; };
+		DAB29C581B95393600DF52FD /* rapidjsonautoutftest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2993C1B95270F00DF52FD /* rapidjsonautoutftest.cpp */; };
+		DAB29C591B95393600DF52FD /* rapidjsonfullprectest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2993D1B95270F00DF52FD /* rapidjsonfullprectest.cpp */; };
+		DAB29C5A1B95393600DF52FD /* rapidjsoninsitutest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2993E1B95270F00DF52FD /* rapidjsoninsitutest.cpp */; };
+		DAB29C7B1B953A1900DF52FD /* jsonstatmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2995A1B95275300DF52FD /* jsonstatmain.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB2991A1B95269200DF52FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB294A01B95269000DF52FD /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4539C8FF0EC27F6400A70F4C;
+			remoteInfo = "gtest-framework";
+		};
+		DAB2991C1B95269200DF52FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB294A01B95269000DF52FD /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C848FA101A209C0083642A;
+			remoteInfo = "gtest-static";
+		};
+		DAB2991E1B95269200DF52FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB294A01B95269000DF52FD /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C8490B101A217E0083642A;
+			remoteInfo = "gtest_main-static";
+		};
+		DAB299201B95269200DF52FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB294A01B95269000DF52FD /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40899F430FFA7184000B29AE;
+			remoteInfo = "gtest_unittest-framework";
+		};
+		DAB299221B95269200DF52FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB294A01B95269000DF52FD /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C84987101A36850083642A;
+			remoteInfo = "gtest_unittest-static";
+		};
+		DAB299241B95269200DF52FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB294A01B95269000DF52FD /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4089A0130FFACEFC000B29AE;
+			remoteInfo = "sample1_unittest-framework";
+		};
+		DAB299261B95269200DF52FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB294A01B95269000DF52FD /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C84997101A36A60083642A;
+			remoteInfo = "sample1_unittest-static";
+		};
+		DAB2992C1B95269200DF52FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB294AC1B95269100DF52FD /* WidgetFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D07F2C80486CC7A007CD1D0;
+			remoteInfo = WidgetFramework;
+		};
+		DAB2992E1B95269200DF52FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB294AC1B95269100DF52FD /* WidgetFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B07BDEA0E3F3F9E00647869;
+			remoteInfo = WidgetFrameworkTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA82460E1B9657A800546050 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DA8246361B965BD100546050 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DA82465E1B965C5D00546050 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DAB28B181B9519E500DF52FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DAB29C271B95299400DF52FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DAB29C4F1B9538E300DF52FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DAB29C7F1B953A1900DF52FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA8245E51B964D4300546050 /* rapidjsonvanillatest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rapidjsonvanillatest.cpp; sourceTree = "<group>"; };
+		DA8245E91B964EAE00546050 /* LevelsConfigWhitespace.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LevelsConfigWhitespace.json; sourceTree = "<group>"; };
+		DA8245EA1B9653A500546050 /* LevelsConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LevelsConfig.json; sourceTree = "<group>"; };
+		DA8246121B9657A800546050 /* jsonstat_rapidjsonautoutftest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jsonstat_rapidjsonautoutftest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA82463A1B965BD100546050 /* jsonstat_rapidjsonfullprectest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jsonstat_rapidjsonfullprectest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8246621B965C5D00546050 /* jsonstat_rapidjsoninsitutest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jsonstat_rapidjsoninsitutest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB28B1A1B9519E500DF52FD /* jsonstat_dropboxjson11test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jsonstat_dropboxjson11test; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB28B241B951A3000DF52FD /* dropboxjson11test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dropboxjson11test.cpp; sourceTree = "<group>"; };
+		DAB28C8A1B95268E00DF52FD /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DAB28C8B1B95268E00DF52FD /* json11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json11.cpp; sourceTree = "<group>"; };
+		DAB28C8C1B95268E00DF52FD /* json11.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json11.hpp; sourceTree = "<group>"; };
+		DAB28C8D1B95268E00DF52FD /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		DAB28C8E1B95268E00DF52FD /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DAB28C8F1B95268E00DF52FD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DAB28C901B95268E00DF52FD /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		DAB28CD31B95268E00DF52FD /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		DAB28CD41B95268E00DF52FD /* Export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Export.h; sourceTree = "<group>"; };
+		DAB28CD51B95268E00DF52FD /* jansson_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson_config.h; sourceTree = "<group>"; };
+		DAB28CD81B95268E00DF52FD /* config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = config.hpp; sourceTree = "<group>"; };
+		DAB28CDA1B95268E00DF52FD /* note.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = note.txt; sourceTree = "<group>"; };
+		DAB28CDB1B95268E00DF52FD /* json_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_config.h; sourceTree = "<group>"; };
+		DAB28CDC1B95268E00DF52FD /* machine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = machine.h; sourceTree = "<group>"; };
+		DAB28CDE1B95268E00DF52FD /* yajl_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_common.h; sourceTree = "<group>"; };
+		DAB28CDF1B95268E00DF52FD /* yajl_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_gen.h; sourceTree = "<group>"; };
+		DAB28CE01B95268E00DF52FD /* yajl_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_parse.h; sourceTree = "<group>"; };
+		DAB28CE11B95268E00DF52FD /* yajl_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_tree.h; sourceTree = "<group>"; };
+		DAB292F11B95269000DF52FD /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DAB292F21B95269000DF52FD /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		DAB292F41B95269000DF52FD /* begin.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = begin.md; sourceTree = "<group>"; };
+		DAB292F51B95269000DF52FD /* empty.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = empty.md; sourceTree = "<group>"; };
+		DAB292F61B95269000DF52FD /* index.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = index.md; sourceTree = "<group>"; };
+		DAB292F71B95269000DF52FD /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
+		DAB292F81B95269000DF52FD /* json.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = json.gif; sourceTree = "<group>"; };
+		DAB292F91B95269000DF52FD /* LICENSE.MIT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.MIT; sourceTree = "<group>"; };
+		DAB292FA1B95269000DF52FD /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DAB292FB1B95269000DF52FD /* mkdocs.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mkdocs.yml; sourceTree = "<group>"; };
+		DAB292FC1B95269000DF52FD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DAB292FE1B95269000DF52FD /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
+		DAB292FF1B95269000DF52FD /* json.hpp.re2c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.hpp.re2c; sourceTree = "<group>"; };
+		DAB293011B95269000DF52FD /* catch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = "<group>"; };
+		DAB293021B95269000DF52FD /* unit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unit.cpp; sourceTree = "<group>"; };
+		DAB293241B95269000DF52FD /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DAB293251B95269000DF52FD /* .gitmodules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
+		DAB293261B95269000DF52FD /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		DAB293271B95269000DF52FD /* appveyor.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = appveyor.yml; sourceTree = "<group>"; };
+		DAB2932A1B95269000DF52FD /* glossary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = glossary.json; sourceTree = "<group>"; };
+		DAB2932B1B95269000DF52FD /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		DAB2932C1B95269000DF52FD /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		DAB2932D1B95269000DF52FD /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		DAB2932E1B95269000DF52FD /* webapp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = webapp.json; sourceTree = "<group>"; };
+		DAB2932F1B95269000DF52FD /* widget.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = widget.json; sourceTree = "<group>"; };
+		DAB293311B95269000DF52FD /* utf16be.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = utf16be.json; sourceTree = "<group>"; };
+		DAB293321B95269000DF52FD /* utf16bebom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = utf16bebom.json; sourceTree = "<group>"; };
+		DAB293331B95269000DF52FD /* utf16le.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = utf16le.json; sourceTree = "<group>"; };
+		DAB293341B95269000DF52FD /* utf16lebom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = utf16lebom.json; sourceTree = "<group>"; };
+		DAB293351B95269000DF52FD /* utf32be.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = utf32be.json; sourceTree = "<group>"; };
+		DAB293361B95269000DF52FD /* utf32bebom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = utf32bebom.json; sourceTree = "<group>"; };
+		DAB293371B95269000DF52FD /* utf32le.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = utf32le.json; sourceTree = "<group>"; };
+		DAB293381B95269000DF52FD /* utf32lebom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = utf32lebom.json; sourceTree = "<group>"; };
+		DAB293391B95269000DF52FD /* utf8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = utf8.json; sourceTree = "<group>"; };
+		DAB2933A1B95269000DF52FD /* utf8bom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = utf8bom.json; sourceTree = "<group>"; };
+		DAB2933C1B95269000DF52FD /* fail1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail1.json; sourceTree = "<group>"; };
+		DAB2933D1B95269000DF52FD /* fail10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail10.json; sourceTree = "<group>"; };
+		DAB2933E1B95269000DF52FD /* fail11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail11.json; sourceTree = "<group>"; };
+		DAB2933F1B95269000DF52FD /* fail12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail12.json; sourceTree = "<group>"; };
+		DAB293401B95269000DF52FD /* fail13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail13.json; sourceTree = "<group>"; };
+		DAB293411B95269000DF52FD /* fail14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail14.json; sourceTree = "<group>"; };
+		DAB293421B95269000DF52FD /* fail15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail15.json; sourceTree = "<group>"; };
+		DAB293431B95269000DF52FD /* fail16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail16.json; sourceTree = "<group>"; };
+		DAB293441B95269000DF52FD /* fail17.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail17.json; sourceTree = "<group>"; };
+		DAB293451B95269000DF52FD /* fail18.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail18.json; sourceTree = "<group>"; };
+		DAB293461B95269000DF52FD /* fail19.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail19.json; sourceTree = "<group>"; };
+		DAB293471B95269000DF52FD /* fail2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail2.json; sourceTree = "<group>"; };
+		DAB293481B95269000DF52FD /* fail20.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail20.json; sourceTree = "<group>"; };
+		DAB293491B95269000DF52FD /* fail21.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail21.json; sourceTree = "<group>"; };
+		DAB2934A1B95269000DF52FD /* fail22.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail22.json; sourceTree = "<group>"; };
+		DAB2934B1B95269000DF52FD /* fail23.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail23.json; sourceTree = "<group>"; };
+		DAB2934C1B95269000DF52FD /* fail24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail24.json; sourceTree = "<group>"; };
+		DAB2934D1B95269000DF52FD /* fail25.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail25.json; sourceTree = "<group>"; };
+		DAB2934E1B95269000DF52FD /* fail26.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail26.json; sourceTree = "<group>"; };
+		DAB2934F1B95269000DF52FD /* fail27.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail27.json; sourceTree = "<group>"; };
+		DAB293501B95269000DF52FD /* fail28.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail28.json; sourceTree = "<group>"; };
+		DAB293511B95269000DF52FD /* fail29.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail29.json; sourceTree = "<group>"; };
+		DAB293521B95269000DF52FD /* fail3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail3.json; sourceTree = "<group>"; };
+		DAB293531B95269000DF52FD /* fail30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail30.json; sourceTree = "<group>"; };
+		DAB293541B95269000DF52FD /* fail31.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail31.json; sourceTree = "<group>"; };
+		DAB293551B95269000DF52FD /* fail32.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail32.json; sourceTree = "<group>"; };
+		DAB293561B95269000DF52FD /* fail33.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail33.json; sourceTree = "<group>"; };
+		DAB293571B95269000DF52FD /* fail4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail4.json; sourceTree = "<group>"; };
+		DAB293581B95269000DF52FD /* fail5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail5.json; sourceTree = "<group>"; };
+		DAB293591B95269000DF52FD /* fail6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail6.json; sourceTree = "<group>"; };
+		DAB2935A1B95269000DF52FD /* fail7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail7.json; sourceTree = "<group>"; };
+		DAB2935B1B95269000DF52FD /* fail8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail8.json; sourceTree = "<group>"; };
+		DAB2935C1B95269000DF52FD /* fail9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail9.json; sourceTree = "<group>"; };
+		DAB2935D1B95269000DF52FD /* pass1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass1.json; sourceTree = "<group>"; };
+		DAB2935E1B95269000DF52FD /* pass2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass2.json; sourceTree = "<group>"; };
+		DAB2935F1B95269000DF52FD /* pass3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass3.json; sourceTree = "<group>"; };
+		DAB293601B95269000DF52FD /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		DAB293611B95269000DF52FD /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		DAB293621B95269000DF52FD /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		DAB293641B95269000DF52FD /* FindGTestSrc.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FindGTestSrc.cmake; sourceTree = "<group>"; };
+		DAB293661B95269000DF52FD /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		DAB293681B95269000DF52FD /* architecture.dot */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = architecture.dot; sourceTree = "<group>"; };
+		DAB293691B95269000DF52FD /* architecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = architecture.png; sourceTree = "<group>"; };
+		DAB2936A1B95269000DF52FD /* insituparsing.dot */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = insituparsing.dot; sourceTree = "<group>"; };
+		DAB2936B1B95269000DF52FD /* insituparsing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insituparsing.png; sourceTree = "<group>"; };
+		DAB2936C1B95269000DF52FD /* iterative-parser-states-diagram.dot */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "iterative-parser-states-diagram.dot"; sourceTree = "<group>"; };
+		DAB2936D1B95269000DF52FD /* iterative-parser-states-diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iterative-parser-states-diagram.png"; sourceTree = "<group>"; };
+		DAB2936E1B95269000DF52FD /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		DAB2936F1B95269000DF52FD /* move1.dot */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = move1.dot; sourceTree = "<group>"; };
+		DAB293701B95269000DF52FD /* move1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = move1.png; sourceTree = "<group>"; };
+		DAB293711B95269000DF52FD /* move2.dot */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = move2.dot; sourceTree = "<group>"; };
+		DAB293721B95269000DF52FD /* move2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = move2.png; sourceTree = "<group>"; };
+		DAB293731B95269000DF52FD /* move3.dot */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = move3.dot; sourceTree = "<group>"; };
+		DAB293741B95269000DF52FD /* move3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = move3.png; sourceTree = "<group>"; };
+		DAB293751B95269000DF52FD /* normalparsing.dot */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = normalparsing.dot; sourceTree = "<group>"; };
+		DAB293761B95269000DF52FD /* normalparsing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normalparsing.png; sourceTree = "<group>"; };
+		DAB293771B95269000DF52FD /* simpledom.dot */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = simpledom.dot; sourceTree = "<group>"; };
+		DAB293781B95269000DF52FD /* simpledom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simpledom.png; sourceTree = "<group>"; };
+		DAB293791B95269000DF52FD /* tutorial.dot */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tutorial.dot; sourceTree = "<group>"; };
+		DAB2937A1B95269000DF52FD /* tutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial.png; sourceTree = "<group>"; };
+		DAB2937B1B95269000DF52FD /* utilityclass.dot */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = utilityclass.dot; sourceTree = "<group>"; };
+		DAB2937C1B95269000DF52FD /* utilityclass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utilityclass.png; sourceTree = "<group>"; };
+		DAB2937D1B95269000DF52FD /* dom.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = dom.md; sourceTree = "<group>"; };
+		DAB2937E1B95269000DF52FD /* dom.zh-cn.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "dom.zh-cn.md"; sourceTree = "<group>"; };
+		DAB2937F1B95269000DF52FD /* Doxyfile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile.in; sourceTree = "<group>"; };
+		DAB293801B95269000DF52FD /* Doxyfile.zh-cn.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Doxyfile.zh-cn.in"; sourceTree = "<group>"; };
+		DAB293811B95269000DF52FD /* encoding.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = encoding.md; sourceTree = "<group>"; };
+		DAB293821B95269000DF52FD /* encoding.zh-cn.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "encoding.zh-cn.md"; sourceTree = "<group>"; };
+		DAB293831B95269000DF52FD /* faq.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = faq.md; sourceTree = "<group>"; };
+		DAB293841B95269000DF52FD /* faq.zh-cn.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "faq.zh-cn.md"; sourceTree = "<group>"; };
+		DAB293851B95269000DF52FD /* features.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = features.md; sourceTree = "<group>"; };
+		DAB293861B95269000DF52FD /* features.zh-cn.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "features.zh-cn.md"; sourceTree = "<group>"; };
+		DAB293871B95269000DF52FD /* internals.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = internals.md; sourceTree = "<group>"; };
+		DAB293891B95269000DF52FD /* rapidjson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rapidjson.png; sourceTree = "<group>"; };
+		DAB2938A1B95269000DF52FD /* rapidjson.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = rapidjson.svg; sourceTree = "<group>"; };
+		DAB2938C1B95269000DF52FD /* doxygenextra.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = doxygenextra.css; sourceTree = "<group>"; };
+		DAB2938D1B95269000DF52FD /* DoxygenLayout.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DoxygenLayout.xml; sourceTree = "<group>"; };
+		DAB2938E1B95269000DF52FD /* footer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = footer.html; sourceTree = "<group>"; };
+		DAB2938F1B95269000DF52FD /* header.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = header.html; sourceTree = "<group>"; };
+		DAB293901B95269000DF52FD /* performance.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = performance.md; sourceTree = "<group>"; };
+		DAB293911B95269000DF52FD /* performance.zh-cn.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "performance.zh-cn.md"; sourceTree = "<group>"; };
+		DAB293921B95269000DF52FD /* sax.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = sax.md; sourceTree = "<group>"; };
+		DAB293931B95269000DF52FD /* sax.zh-cn.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "sax.zh-cn.md"; sourceTree = "<group>"; };
+		DAB293941B95269000DF52FD /* stream.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = stream.md; sourceTree = "<group>"; };
+		DAB293951B95269000DF52FD /* stream.zh-cn.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "stream.zh-cn.md"; sourceTree = "<group>"; };
+		DAB293961B95269000DF52FD /* tutorial.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = tutorial.md; sourceTree = "<group>"; };
+		DAB293971B95269000DF52FD /* tutorial.zh-cn.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "tutorial.zh-cn.md"; sourceTree = "<group>"; };
+		DAB2939A1B95269000DF52FD /* capitalize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = capitalize.cpp; sourceTree = "<group>"; };
+		DAB2939B1B95269000DF52FD /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		DAB2939D1B95269000DF52FD /* condense.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = condense.cpp; sourceTree = "<group>"; };
+		DAB2939F1B95269000DF52FD /* messagereader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = messagereader.cpp; sourceTree = "<group>"; };
+		DAB293A11B95269000DF52FD /* pretty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pretty.cpp; sourceTree = "<group>"; };
+		DAB293A31B95269000DF52FD /* prettyauto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = prettyauto.cpp; sourceTree = "<group>"; };
+		DAB293A51B95269000DF52FD /* serialize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = serialize.cpp; sourceTree = "<group>"; };
+		DAB293A71B95269000DF52FD /* simpledom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simpledom.cpp; sourceTree = "<group>"; };
+		DAB293A91B95269000DF52FD /* simplereader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simplereader.cpp; sourceTree = "<group>"; };
+		DAB293AB1B95269000DF52FD /* simplewriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simplewriter.cpp; sourceTree = "<group>"; };
+		DAB293AD1B95269000DF52FD /* tutorial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tutorial.cpp; sourceTree = "<group>"; };
+		DAB293B01B95269000DF52FD /* allocators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allocators.h; sourceTree = "<group>"; };
+		DAB293B11B95269000DF52FD /* document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = document.h; sourceTree = "<group>"; };
+		DAB293B21B95269000DF52FD /* encodedstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encodedstream.h; sourceTree = "<group>"; };
+		DAB293B31B95269000DF52FD /* encodings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encodings.h; sourceTree = "<group>"; };
+		DAB293B51B95269000DF52FD /* en.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = en.h; sourceTree = "<group>"; };
+		DAB293B61B95269000DF52FD /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		DAB293B71B95269000DF52FD /* filereadstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filereadstream.h; sourceTree = "<group>"; };
+		DAB293B81B95269000DF52FD /* filewritestream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filewritestream.h; sourceTree = "<group>"; };
+		DAB293BA1B95269000DF52FD /* biginteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = biginteger.h; sourceTree = "<group>"; };
+		DAB293BB1B95269000DF52FD /* diyfp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diyfp.h; sourceTree = "<group>"; };
+		DAB293BC1B95269000DF52FD /* dtoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtoa.h; sourceTree = "<group>"; };
+		DAB293BD1B95269000DF52FD /* ieee754.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ieee754.h; sourceTree = "<group>"; };
+		DAB293BE1B95269000DF52FD /* itoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itoa.h; sourceTree = "<group>"; };
+		DAB293BF1B95269000DF52FD /* meta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = meta.h; sourceTree = "<group>"; };
+		DAB293C01B95269000DF52FD /* pow10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pow10.h; sourceTree = "<group>"; };
+		DAB293C11B95269000DF52FD /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		DAB293C21B95269000DF52FD /* strfunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strfunc.h; sourceTree = "<group>"; };
+		DAB293C31B95269000DF52FD /* strtod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strtod.h; sourceTree = "<group>"; };
+		DAB293C41B95269000DF52FD /* memorybuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memorybuffer.h; sourceTree = "<group>"; };
+		DAB293C51B95269000DF52FD /* memorystream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memorystream.h; sourceTree = "<group>"; };
+		DAB293C71B95269000DF52FD /* inttypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inttypes.h; sourceTree = "<group>"; };
+		DAB293C81B95269000DF52FD /* stdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdint.h; sourceTree = "<group>"; };
+		DAB293C91B95269000DF52FD /* prettywriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prettywriter.h; sourceTree = "<group>"; };
+		DAB293CA1B95269000DF52FD /* rapidjson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rapidjson.h; sourceTree = "<group>"; };
+		DAB293CB1B95269000DF52FD /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		DAB293CC1B95269000DF52FD /* stringbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringbuffer.h; sourceTree = "<group>"; };
+		DAB293CD1B95269000DF52FD /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		DAB293CE1B95269000DF52FD /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		DAB293CF1B95269000DF52FD /* RapidJSON.pc.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RapidJSON.pc.in; sourceTree = "<group>"; };
+		DAB293D01B95269000DF52FD /* RapidJSONConfig.cmake.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RapidJSONConfig.cmake.in; sourceTree = "<group>"; };
+		DAB293D11B95269000DF52FD /* RapidJSONConfigVersion.cmake.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RapidJSONConfigVersion.cmake.in; sourceTree = "<group>"; };
+		DAB293D21B95269000DF52FD /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		DAB293D31B95269000DF52FD /* readme.zh-cn.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "readme.zh-cn.md"; sourceTree = "<group>"; };
+		DAB293D51B95269000DF52FD /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		DAB293D71B95269000DF52FD /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		DAB293D81B95269000DF52FD /* misctest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = misctest.cpp; sourceTree = "<group>"; };
+		DAB293D91B95269000DF52FD /* perftest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = perftest.cpp; sourceTree = "<group>"; };
+		DAB293DA1B95269000DF52FD /* perftest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = perftest.h; sourceTree = "<group>"; };
+		DAB293DB1B95269000DF52FD /* platformtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = platformtest.cpp; sourceTree = "<group>"; };
+		DAB293DC1B95269000DF52FD /* rapidjsontest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rapidjsontest.cpp; sourceTree = "<group>"; };
+		DAB293DE1B95269000DF52FD /* allocatorstest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = allocatorstest.cpp; sourceTree = "<group>"; };
+		DAB293DF1B95269000DF52FD /* bigintegertest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bigintegertest.cpp; sourceTree = "<group>"; };
+		DAB293E01B95269000DF52FD /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		DAB293E11B95269000DF52FD /* documenttest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = documenttest.cpp; sourceTree = "<group>"; };
+		DAB293E21B95269000DF52FD /* encodedstreamtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encodedstreamtest.cpp; sourceTree = "<group>"; };
+		DAB293E31B95269000DF52FD /* encodingstest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encodingstest.cpp; sourceTree = "<group>"; };
+		DAB293E41B95269000DF52FD /* filestreamtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filestreamtest.cpp; sourceTree = "<group>"; };
+		DAB293E51B95269000DF52FD /* itoatest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = itoatest.cpp; sourceTree = "<group>"; };
+		DAB293E61B95269000DF52FD /* jsoncheckertest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsoncheckertest.cpp; sourceTree = "<group>"; };
+		DAB293E71B95269000DF52FD /* namespacetest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = namespacetest.cpp; sourceTree = "<group>"; };
+		DAB293E81B95269000DF52FD /* prettywritertest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = prettywritertest.cpp; sourceTree = "<group>"; };
+		DAB293E91B95269000DF52FD /* readertest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = readertest.cpp; sourceTree = "<group>"; };
+		DAB293EA1B95269000DF52FD /* simdtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simdtest.cpp; sourceTree = "<group>"; };
+		DAB293EB1B95269000DF52FD /* stringbuffertest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stringbuffertest.cpp; sourceTree = "<group>"; };
+		DAB293EC1B95269000DF52FD /* strtodtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = strtodtest.cpp; sourceTree = "<group>"; };
+		DAB293ED1B95269000DF52FD /* unittest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unittest.cpp; sourceTree = "<group>"; };
+		DAB293EE1B95269000DF52FD /* unittest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unittest.h; sourceTree = "<group>"; };
+		DAB293EF1B95269000DF52FD /* valuetest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = valuetest.cpp; sourceTree = "<group>"; };
+		DAB293F01B95269000DF52FD /* writertest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = writertest.cpp; sourceTree = "<group>"; };
+		DAB293F41B95269000DF52FD /* .keep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
+		DAB293F51B95269000DF52FD /* CHANGES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
+		DAB293F71B95269000DF52FD /* internal_utils.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = internal_utils.cmake; sourceTree = "<group>"; };
+		DAB293F81B95269000DF52FD /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		DAB293FA1B95269000DF52FD /* gtest.cbproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gtest.cbproj; sourceTree = "<group>"; };
+		DAB293FB1B95269000DF52FD /* gtest.groupproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gtest.groupproj; sourceTree = "<group>"; };
+		DAB293FC1B95269000DF52FD /* gtest_all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_all.cc; sourceTree = "<group>"; };
+		DAB293FD1B95269000DF52FD /* gtest_link.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_link.cc; sourceTree = "<group>"; };
+		DAB293FE1B95269000DF52FD /* gtest_main.cbproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gtest_main.cbproj; sourceTree = "<group>"; };
+		DAB293FF1B95269000DF52FD /* gtest_unittest.cbproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gtest_unittest.cbproj; sourceTree = "<group>"; };
+		DAB294001B95269000DF52FD /* configure.ac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
+		DAB294011B95269000DF52FD /* CONTRIBUTORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTORS; sourceTree = "<group>"; };
+		DAB294041B95269000DF52FD /* gtest-death-test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-death-test.h"; sourceTree = "<group>"; };
+		DAB294051B95269000DF52FD /* gtest-message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-message.h"; sourceTree = "<group>"; };
+		DAB294061B95269000DF52FD /* gtest-param-test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-param-test.h"; sourceTree = "<group>"; };
+		DAB294071B95269000DF52FD /* gtest-param-test.h.pump */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gtest-param-test.h.pump"; sourceTree = "<group>"; };
+		DAB294081B95269000DF52FD /* gtest-printers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-printers.h"; sourceTree = "<group>"; };
+		DAB294091B95269000DF52FD /* gtest-spi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-spi.h"; sourceTree = "<group>"; };
+		DAB2940A1B95269000DF52FD /* gtest-test-part.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-test-part.h"; sourceTree = "<group>"; };
+		DAB2940B1B95269000DF52FD /* gtest-typed-test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-typed-test.h"; sourceTree = "<group>"; };
+		DAB2940C1B95269000DF52FD /* gtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gtest.h; sourceTree = "<group>"; };
+		DAB2940D1B95269000DF52FD /* gtest_pred_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gtest_pred_impl.h; sourceTree = "<group>"; };
+		DAB2940E1B95269000DF52FD /* gtest_prod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gtest_prod.h; sourceTree = "<group>"; };
+		DAB294101B95269000DF52FD /* gtest-death-test-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-death-test-internal.h"; sourceTree = "<group>"; };
+		DAB294111B95269000DF52FD /* gtest-filepath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-filepath.h"; sourceTree = "<group>"; };
+		DAB294121B95269000DF52FD /* gtest-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-internal.h"; sourceTree = "<group>"; };
+		DAB294131B95269000DF52FD /* gtest-linked_ptr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-linked_ptr.h"; sourceTree = "<group>"; };
+		DAB294141B95269000DF52FD /* gtest-param-util-generated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-param-util-generated.h"; sourceTree = "<group>"; };
+		DAB294151B95269000DF52FD /* gtest-param-util-generated.h.pump */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gtest-param-util-generated.h.pump"; sourceTree = "<group>"; };
+		DAB294161B95269000DF52FD /* gtest-param-util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-param-util.h"; sourceTree = "<group>"; };
+		DAB294171B95269000DF52FD /* gtest-port.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-port.h"; sourceTree = "<group>"; };
+		DAB294181B95269000DF52FD /* gtest-string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-string.h"; sourceTree = "<group>"; };
+		DAB294191B95269000DF52FD /* gtest-tuple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-tuple.h"; sourceTree = "<group>"; };
+		DAB2941A1B95269000DF52FD /* gtest-tuple.h.pump */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gtest-tuple.h.pump"; sourceTree = "<group>"; };
+		DAB2941B1B95269000DF52FD /* gtest-type-util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-type-util.h"; sourceTree = "<group>"; };
+		DAB2941C1B95269000DF52FD /* gtest-type-util.h.pump */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gtest-type-util.h.pump"; sourceTree = "<group>"; };
+		DAB2941D1B95269000DF52FD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DAB2941F1B95269000DF52FD /* acx_pthread.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = acx_pthread.m4; sourceTree = "<group>"; };
+		DAB294201B95269000DF52FD /* gtest.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gtest.m4; sourceTree = "<group>"; };
+		DAB294221B95269000DF52FD /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DAB294231B95269000DF52FD /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		DAB294251B95269000DF52FD /* gtest-md.sln */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gtest-md.sln"; sourceTree = "<group>"; };
+		DAB294261B95269000DF52FD /* gtest-md.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "gtest-md.vcproj"; sourceTree = "<group>"; };
+		DAB294271B95269000DF52FD /* gtest.sln */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gtest.sln; sourceTree = "<group>"; };
+		DAB294281B95269000DF52FD /* gtest.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gtest.vcproj; sourceTree = "<group>"; };
+		DAB294291B95269000DF52FD /* gtest_main-md.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "gtest_main-md.vcproj"; sourceTree = "<group>"; };
+		DAB2942A1B95269000DF52FD /* gtest_main.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gtest_main.vcproj; sourceTree = "<group>"; };
+		DAB2942B1B95269000DF52FD /* gtest_prod_test-md.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "gtest_prod_test-md.vcproj"; sourceTree = "<group>"; };
+		DAB2942C1B95269000DF52FD /* gtest_prod_test.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gtest_prod_test.vcproj; sourceTree = "<group>"; };
+		DAB2942D1B95269000DF52FD /* gtest_unittest-md.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "gtest_unittest-md.vcproj"; sourceTree = "<group>"; };
+		DAB2942E1B95269000DF52FD /* gtest_unittest.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gtest_unittest.vcproj; sourceTree = "<group>"; };
+		DAB2942F1B95269000DF52FD /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		DAB294311B95269000DF52FD /* prime_tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prime_tables.h; sourceTree = "<group>"; };
+		DAB294321B95269000DF52FD /* sample1.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample1.cc; sourceTree = "<group>"; };
+		DAB294331B95269000DF52FD /* sample1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample1.h; sourceTree = "<group>"; };
+		DAB294341B95269000DF52FD /* sample10_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample10_unittest.cc; sourceTree = "<group>"; };
+		DAB294351B95269000DF52FD /* sample1_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample1_unittest.cc; sourceTree = "<group>"; };
+		DAB294361B95269000DF52FD /* sample2.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample2.cc; sourceTree = "<group>"; };
+		DAB294371B95269000DF52FD /* sample2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample2.h; sourceTree = "<group>"; };
+		DAB294381B95269000DF52FD /* sample2_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample2_unittest.cc; sourceTree = "<group>"; };
+		DAB294391B95269000DF52FD /* sample3-inl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sample3-inl.h"; sourceTree = "<group>"; };
+		DAB2943A1B95269000DF52FD /* sample3_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample3_unittest.cc; sourceTree = "<group>"; };
+		DAB2943B1B95269000DF52FD /* sample4.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample4.cc; sourceTree = "<group>"; };
+		DAB2943C1B95269000DF52FD /* sample4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample4.h; sourceTree = "<group>"; };
+		DAB2943D1B95269000DF52FD /* sample4_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample4_unittest.cc; sourceTree = "<group>"; };
+		DAB2943E1B95269000DF52FD /* sample5_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample5_unittest.cc; sourceTree = "<group>"; };
+		DAB2943F1B95269000DF52FD /* sample6_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample6_unittest.cc; sourceTree = "<group>"; };
+		DAB294401B95269000DF52FD /* sample7_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample7_unittest.cc; sourceTree = "<group>"; };
+		DAB294411B95269000DF52FD /* sample8_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample8_unittest.cc; sourceTree = "<group>"; };
+		DAB294421B95269000DF52FD /* sample9_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample9_unittest.cc; sourceTree = "<group>"; };
+		DAB294441B95269000DF52FD /* common.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = common.py; sourceTree = "<group>"; };
+		DAB294451B95269000DF52FD /* fuse_gtest_files.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = fuse_gtest_files.py; sourceTree = "<group>"; };
+		DAB294461B95269000DF52FD /* gen_gtest_pred_impl.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gen_gtest_pred_impl.py; sourceTree = "<group>"; };
+		DAB294471B95269000DF52FD /* gtest-config.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "gtest-config.in"; sourceTree = "<group>"; };
+		DAB294481B95269000DF52FD /* pump.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = pump.py; sourceTree = "<group>"; };
+		DAB294491B95269000DF52FD /* release_docs.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = release_docs.py; sourceTree = "<group>"; };
+		DAB2944B1B95269000DF52FD /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DAB2944C1B95269000DF52FD /* upload.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = upload.py; sourceTree = "<group>"; };
+		DAB2944D1B95269000DF52FD /* upload_gtest.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = upload_gtest.py; sourceTree = "<group>"; };
+		DAB2944F1B95269000DF52FD /* gtest-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-all.cc"; sourceTree = "<group>"; };
+		DAB294501B95269000DF52FD /* gtest-death-test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-death-test.cc"; sourceTree = "<group>"; };
+		DAB294511B95269000DF52FD /* gtest-filepath.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-filepath.cc"; sourceTree = "<group>"; };
+		DAB294521B95269000DF52FD /* gtest-internal-inl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-internal-inl.h"; sourceTree = "<group>"; };
+		DAB294531B95269000DF52FD /* gtest-port.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-port.cc"; sourceTree = "<group>"; };
+		DAB294541B95269000DF52FD /* gtest-printers.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-printers.cc"; sourceTree = "<group>"; };
+		DAB294551B95269000DF52FD /* gtest-test-part.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-test-part.cc"; sourceTree = "<group>"; };
+		DAB294561B95269000DF52FD /* gtest-typed-test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-typed-test.cc"; sourceTree = "<group>"; };
+		DAB294571B95269000DF52FD /* gtest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest.cc; sourceTree = "<group>"; };
+		DAB294581B95269000DF52FD /* gtest_main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_main.cc; sourceTree = "<group>"; };
+		DAB2945A1B95269000DF52FD /* gtest-death-test_ex_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-death-test_ex_test.cc"; sourceTree = "<group>"; };
+		DAB2945B1B95269000DF52FD /* gtest-death-test_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-death-test_test.cc"; sourceTree = "<group>"; };
+		DAB2945C1B95269000DF52FD /* gtest-filepath_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-filepath_test.cc"; sourceTree = "<group>"; };
+		DAB2945D1B95269000DF52FD /* gtest-linked_ptr_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-linked_ptr_test.cc"; sourceTree = "<group>"; };
+		DAB2945E1B95269000DF52FD /* gtest-listener_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-listener_test.cc"; sourceTree = "<group>"; };
+		DAB2945F1B95269000DF52FD /* gtest-message_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-message_test.cc"; sourceTree = "<group>"; };
+		DAB294601B95269000DF52FD /* gtest-options_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-options_test.cc"; sourceTree = "<group>"; };
+		DAB294611B95269000DF52FD /* gtest-param-test2_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-param-test2_test.cc"; sourceTree = "<group>"; };
+		DAB294621B95269000DF52FD /* gtest-param-test_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-param-test_test.cc"; sourceTree = "<group>"; };
+		DAB294631B95269000DF52FD /* gtest-param-test_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-param-test_test.h"; sourceTree = "<group>"; };
+		DAB294641B95269000DF52FD /* gtest-port_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-port_test.cc"; sourceTree = "<group>"; };
+		DAB294651B95269000DF52FD /* gtest-printers_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-printers_test.cc"; sourceTree = "<group>"; };
+		DAB294661B95269000DF52FD /* gtest-test-part_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-test-part_test.cc"; sourceTree = "<group>"; };
+		DAB294671B95269000DF52FD /* gtest-tuple_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-tuple_test.cc"; sourceTree = "<group>"; };
+		DAB294681B95269000DF52FD /* gtest-typed-test2_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-typed-test2_test.cc"; sourceTree = "<group>"; };
+		DAB294691B95269000DF52FD /* gtest-typed-test_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-typed-test_test.cc"; sourceTree = "<group>"; };
+		DAB2946A1B95269000DF52FD /* gtest-typed-test_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-typed-test_test.h"; sourceTree = "<group>"; };
+		DAB2946B1B95269000DF52FD /* gtest-unittest-api_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-unittest-api_test.cc"; sourceTree = "<group>"; };
+		DAB2946C1B95269000DF52FD /* gtest_all_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_all_test.cc; sourceTree = "<group>"; };
+		DAB2946D1B95269000DF52FD /* gtest_break_on_failure_unittest.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gtest_break_on_failure_unittest.py; sourceTree = "<group>"; };
+		DAB2946E1B95269000DF52FD /* gtest_break_on_failure_unittest_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_break_on_failure_unittest_.cc; sourceTree = "<group>"; };
+		DAB2946F1B95269000DF52FD /* gtest_catch_exceptions_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gtest_catch_exceptions_test.py; sourceTree = "<group>"; };
+		DAB294701B95269000DF52FD /* gtest_catch_exceptions_test_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_catch_exceptions_test_.cc; sourceTree = "<group>"; };
+		DAB294711B95269000DF52FD /* gtest_color_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gtest_color_test.py; sourceTree = "<group>"; };
+		DAB294721B95269000DF52FD /* gtest_color_test_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_color_test_.cc; sourceTree = "<group>"; };
+		DAB294731B95269000DF52FD /* gtest_env_var_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gtest_env_var_test.py; sourceTree = "<group>"; };
+		DAB294741B95269000DF52FD /* gtest_env_var_test_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_env_var_test_.cc; sourceTree = "<group>"; };
+		DAB294751B95269000DF52FD /* gtest_environment_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_environment_test.cc; sourceTree = "<group>"; };
+		DAB294761B95269000DF52FD /* gtest_filter_unittest.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gtest_filter_unittest.py; sourceTree = "<group>"; };
+		DAB294771B95269000DF52FD /* gtest_filter_unittest_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_filter_unittest_.cc; sourceTree = "<group>"; };
+		DAB294781B95269000DF52FD /* gtest_help_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gtest_help_test.py; sourceTree = "<group>"; };
+		DAB294791B95269000DF52FD /* gtest_help_test_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_help_test_.cc; sourceTree = "<group>"; };
+		DAB2947A1B95269000DF52FD /* gtest_list_tests_unittest.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gtest_list_tests_unittest.py; sourceTree = "<group>"; };
+		DAB2947B1B95269000DF52FD /* gtest_list_tests_unittest_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_list_tests_unittest_.cc; sourceTree = "<group>"; };
+		DAB2947C1B95269000DF52FD /* gtest_main_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_main_unittest.cc; sourceTree = "<group>"; };
+		DAB2947D1B95269000DF52FD /* gtest_no_test_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_no_test_unittest.cc; sourceTree = "<group>"; };
+		DAB2947E1B95269000DF52FD /* gtest_output_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gtest_output_test.py; sourceTree = "<group>"; };
+		DAB2947F1B95269000DF52FD /* gtest_output_test_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_output_test_.cc; sourceTree = "<group>"; };
+		DAB294801B95269000DF52FD /* gtest_output_test_golden_lin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gtest_output_test_golden_lin.txt; sourceTree = "<group>"; };
+		DAB294811B95269000DF52FD /* gtest_pred_impl_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_pred_impl_unittest.cc; sourceTree = "<group>"; };
+		DAB294821B95269000DF52FD /* gtest_premature_exit_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_premature_exit_test.cc; sourceTree = "<group>"; };
+		DAB294831B95269000DF52FD /* gtest_prod_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_prod_test.cc; sourceTree = "<group>"; };
+		DAB294841B95269000DF52FD /* gtest_repeat_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_repeat_test.cc; sourceTree = "<group>"; };
+		DAB294851B95269000DF52FD /* gtest_shuffle_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gtest_shuffle_test.py; sourceTree = "<group>"; };
+		DAB294861B95269000DF52FD /* gtest_shuffle_test_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_shuffle_test_.cc; sourceTree = "<group>"; };
+		DAB294871B95269000DF52FD /* gtest_sole_header_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_sole_header_test.cc; sourceTree = "<group>"; };
+		DAB294881B95269000DF52FD /* gtest_stress_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_stress_test.cc; sourceTree = "<group>"; };
+		DAB294891B95269000DF52FD /* gtest_test_utils.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gtest_test_utils.py; sourceTree = "<group>"; };
+		DAB2948A1B95269000DF52FD /* gtest_throw_on_failure_ex_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_throw_on_failure_ex_test.cc; sourceTree = "<group>"; };
+		DAB2948B1B95269000DF52FD /* gtest_throw_on_failure_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gtest_throw_on_failure_test.py; sourceTree = "<group>"; };
+		DAB2948C1B95269000DF52FD /* gtest_throw_on_failure_test_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_throw_on_failure_test_.cc; sourceTree = "<group>"; };
+		DAB2948D1B95269000DF52FD /* gtest_uninitialized_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gtest_uninitialized_test.py; sourceTree = "<group>"; };
+		DAB2948E1B95269000DF52FD /* gtest_uninitialized_test_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_uninitialized_test_.cc; sourceTree = "<group>"; };
+		DAB2948F1B95269000DF52FD /* gtest_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_unittest.cc; sourceTree = "<group>"; };
+		DAB294901B95269000DF52FD /* gtest_xml_outfile1_test_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_xml_outfile1_test_.cc; sourceTree = "<group>"; };
+		DAB294911B95269000DF52FD /* gtest_xml_outfile2_test_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_xml_outfile2_test_.cc; sourceTree = "<group>"; };
+		DAB294921B95269000DF52FD /* gtest_xml_outfiles_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gtest_xml_outfiles_test.py; sourceTree = "<group>"; };
+		DAB294931B95269000DF52FD /* gtest_xml_output_unittest.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gtest_xml_output_unittest.py; sourceTree = "<group>"; };
+		DAB294941B95269000DF52FD /* gtest_xml_output_unittest_.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_xml_output_unittest_.cc; sourceTree = "<group>"; };
+		DAB294951B95269000DF52FD /* gtest_xml_test_utils.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gtest_xml_test_utils.py; sourceTree = "<group>"; };
+		DAB294961B95269000DF52FD /* production.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = production.cc; sourceTree = "<group>"; };
+		DAB294971B95269000DF52FD /* production.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = production.h; sourceTree = "<group>"; };
+		DAB2949A1B95269000DF52FD /* DebugProject.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DebugProject.xcconfig; sourceTree = "<group>"; };
+		DAB2949B1B95269000DF52FD /* FrameworkTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FrameworkTarget.xcconfig; sourceTree = "<group>"; };
+		DAB2949C1B95269000DF52FD /* General.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = General.xcconfig; sourceTree = "<group>"; };
+		DAB2949D1B95269000DF52FD /* ReleaseProject.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ReleaseProject.xcconfig; sourceTree = "<group>"; };
+		DAB2949E1B95269000DF52FD /* StaticLibraryTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StaticLibraryTarget.xcconfig; sourceTree = "<group>"; };
+		DAB2949F1B95269000DF52FD /* TestTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = TestTarget.xcconfig; sourceTree = "<group>"; };
+		DAB294A01B95269000DF52FD /* gtest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = gtest.xcodeproj; sourceTree = "<group>"; };
+		DAB294A41B95269100DF52FD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB294A71B95269100DF52FD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB294A81B95269100DF52FD /* runtests.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = runtests.sh; sourceTree = "<group>"; };
+		DAB294A91B95269100DF52FD /* widget.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = widget.cc; sourceTree = "<group>"; };
+		DAB294AA1B95269100DF52FD /* widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = widget.h; sourceTree = "<group>"; };
+		DAB294AB1B95269100DF52FD /* widget_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = widget_test.cc; sourceTree = "<group>"; };
+		DAB294AC1B95269100DF52FD /* WidgetFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = WidgetFramework.xcodeproj; sourceTree = "<group>"; };
+		DAB294B01B95269100DF52FD /* runtests.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = runtests.sh; sourceTree = "<group>"; };
+		DAB294B11B95269100DF52FD /* versiongenerate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = versiongenerate.py; sourceTree = "<group>"; };
+		DAB294B21B95269100DF52FD /* travis-doxygen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "travis-doxygen.sh"; sourceTree = "<group>"; };
+		DAB2993B1B95270F00DF52FD /* nlohmanntest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nlohmanntest.cpp; sourceTree = "<group>"; };
+		DAB2993C1B95270F00DF52FD /* rapidjsonautoutftest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rapidjsonautoutftest.cpp; sourceTree = "<group>"; };
+		DAB2993D1B95270F00DF52FD /* rapidjsonfullprectest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rapidjsonfullprectest.cpp; sourceTree = "<group>"; };
+		DAB2993E1B95270F00DF52FD /* rapidjsoninsitutest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rapidjsoninsitutest.cpp; sourceTree = "<group>"; };
+		DAB2993F1B95270F00DF52FD /* rapidjsontest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rapidjsontest.cpp; sourceTree = "<group>"; };
+		DAB299451B95273900DF52FD /* cjson_all.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cjson_all.c; sourceTree = "<group>"; };
+		DAB299461B95273900DF52FD /* jansson_all.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jansson_all.c; sourceTree = "<group>"; };
+		DAB299471B95273900DF52FD /* jansson_renaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson_renaming.h; sourceTree = "<group>"; };
+		DAB299481B95273900DF52FD /* jsonc_all.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jsonc_all.c; sourceTree = "<group>"; };
+		DAB299491B95273900DF52FD /* parson_all.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parson_all.c; sourceTree = "<group>"; };
+		DAB2994A1B95273900DF52FD /* parson_renaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parson_renaming.h; sourceTree = "<group>"; };
+		DAB2994B1B95273900DF52FD /* udpjson_all.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = udpjson_all.c; sourceTree = "<group>"; };
+		DAB2994C1B95273900DF52FD /* ujson4c_all.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ujson4c_all.c; sourceTree = "<group>"; };
+		DAB2994D1B95273900DF52FD /* ultrajsondec_all.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ultrajsondec_all.c; sourceTree = "<group>"; };
+		DAB2994E1B95273900DF52FD /* vincenthz_libjson_all.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vincenthz_libjson_all.c; sourceTree = "<group>"; };
+		DAB2994F1B95273900DF52FD /* vincenthz_libjson_renaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vincenthz_libjson_renaming.h; sourceTree = "<group>"; };
+		DAB299501B95273900DF52FD /* yajl_all.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_all.c; sourceTree = "<group>"; };
+		DAB2995A1B95275300DF52FD /* jsonstatmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsonstatmain.cpp; sourceTree = "<group>"; };
+		DAB2995C1B95278A00DF52FD /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		DAB2995D1B95278A00DF52FD /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DAB2995E1B95278A00DF52FD /* memorystat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = memorystat.cpp; sourceTree = "<group>"; };
+		DAB2995F1B95278A00DF52FD /* memorystat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memorystat.h; sourceTree = "<group>"; };
+		DAB299601B95278A00DF52FD /* resultfilename.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resultfilename.h; sourceTree = "<group>"; };
+		DAB299611B95278A00DF52FD /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		DAB299621B95278A00DF52FD /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		DAB299661B95282900DF52FD /* canada.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = canada.json; sourceTree = "<group>"; };
+		DAB299671B95282900DF52FD /* citm_catalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = citm_catalog.json; sourceTree = "<group>"; };
+		DAB299681B95282900DF52FD /* data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		DAB2996A1B95282900DF52FD /* fail01_EXCLUDE.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail01_EXCLUDE.json; sourceTree = "<group>"; };
+		DAB2996B1B95282900DF52FD /* fail02.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail02.json; sourceTree = "<group>"; };
+		DAB2996C1B95282900DF52FD /* fail03.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail03.json; sourceTree = "<group>"; };
+		DAB2996D1B95282900DF52FD /* fail04.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail04.json; sourceTree = "<group>"; };
+		DAB2996E1B95282900DF52FD /* fail05.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail05.json; sourceTree = "<group>"; };
+		DAB2996F1B95282900DF52FD /* fail06.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail06.json; sourceTree = "<group>"; };
+		DAB299701B95282900DF52FD /* fail07.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail07.json; sourceTree = "<group>"; };
+		DAB299711B95282900DF52FD /* fail08.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail08.json; sourceTree = "<group>"; };
+		DAB299721B95282900DF52FD /* fail09.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail09.json; sourceTree = "<group>"; };
+		DAB299731B95282900DF52FD /* fail10.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail10.json; sourceTree = "<group>"; };
+		DAB299741B95282900DF52FD /* fail11.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail11.json; sourceTree = "<group>"; };
+		DAB299751B95282900DF52FD /* fail12.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail12.json; sourceTree = "<group>"; };
+		DAB299761B95282900DF52FD /* fail13.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail13.json; sourceTree = "<group>"; };
+		DAB299771B95282900DF52FD /* fail14.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail14.json; sourceTree = "<group>"; };
+		DAB299781B95282900DF52FD /* fail15.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail15.json; sourceTree = "<group>"; };
+		DAB299791B95282900DF52FD /* fail16.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail16.json; sourceTree = "<group>"; };
+		DAB2997A1B95282900DF52FD /* fail17.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail17.json; sourceTree = "<group>"; };
+		DAB2997B1B95282900DF52FD /* fail18_EXCLUDE.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail18_EXCLUDE.json; sourceTree = "<group>"; };
+		DAB2997C1B95282900DF52FD /* fail19.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail19.json; sourceTree = "<group>"; };
+		DAB2997D1B95282900DF52FD /* fail20.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail20.json; sourceTree = "<group>"; };
+		DAB2997E1B95282900DF52FD /* fail21.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail21.json; sourceTree = "<group>"; };
+		DAB2997F1B95282900DF52FD /* fail22.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail22.json; sourceTree = "<group>"; };
+		DAB299801B95282900DF52FD /* fail23.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail23.json; sourceTree = "<group>"; };
+		DAB299811B95282900DF52FD /* fail24.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail24.json; sourceTree = "<group>"; };
+		DAB299821B95282900DF52FD /* fail25.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail25.json; sourceTree = "<group>"; };
+		DAB299831B95282900DF52FD /* fail26.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail26.json; sourceTree = "<group>"; };
+		DAB299841B95282900DF52FD /* fail27.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail27.json; sourceTree = "<group>"; };
+		DAB299851B95282900DF52FD /* fail28.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail28.json; sourceTree = "<group>"; };
+		DAB299861B95282900DF52FD /* fail29.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail29.json; sourceTree = "<group>"; };
+		DAB299871B95282900DF52FD /* fail30.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail30.json; sourceTree = "<group>"; };
+		DAB299881B95282900DF52FD /* fail31.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail31.json; sourceTree = "<group>"; };
+		DAB299891B95282900DF52FD /* fail32.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail32.json; sourceTree = "<group>"; };
+		DAB2998A1B95282900DF52FD /* fail33.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fail33.json; sourceTree = "<group>"; };
+		DAB2998B1B95282900DF52FD /* pass01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pass01.json; sourceTree = "<group>"; };
+		DAB2998C1B95282900DF52FD /* pass02.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pass02.json; sourceTree = "<group>"; };
+		DAB2998D1B95282900DF52FD /* pass03.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pass03.json; sourceTree = "<group>"; };
+		DAB2998E1B95282900DF52FD /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		DAB299901B95282900DF52FD /* roundtrip01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip01.json; sourceTree = "<group>"; };
+		DAB299911B95282900DF52FD /* roundtrip02.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip02.json; sourceTree = "<group>"; };
+		DAB299921B95282900DF52FD /* roundtrip03.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip03.json; sourceTree = "<group>"; };
+		DAB299931B95282900DF52FD /* roundtrip04.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip04.json; sourceTree = "<group>"; };
+		DAB299941B95282900DF52FD /* roundtrip05.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip05.json; sourceTree = "<group>"; };
+		DAB299951B95282900DF52FD /* roundtrip06.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip06.json; sourceTree = "<group>"; };
+		DAB299961B95282900DF52FD /* roundtrip07.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip07.json; sourceTree = "<group>"; };
+		DAB299971B95282900DF52FD /* roundtrip08.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip08.json; sourceTree = "<group>"; };
+		DAB299981B95282900DF52FD /* roundtrip09.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip09.json; sourceTree = "<group>"; };
+		DAB299991B95282900DF52FD /* roundtrip10.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip10.json; sourceTree = "<group>"; };
+		DAB2999A1B95282900DF52FD /* roundtrip11.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip11.json; sourceTree = "<group>"; };
+		DAB2999B1B95282900DF52FD /* roundtrip12.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip12.json; sourceTree = "<group>"; };
+		DAB2999C1B95282900DF52FD /* roundtrip13.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip13.json; sourceTree = "<group>"; };
+		DAB2999D1B95282900DF52FD /* roundtrip14.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip14.json; sourceTree = "<group>"; };
+		DAB2999E1B95282900DF52FD /* roundtrip15.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip15.json; sourceTree = "<group>"; };
+		DAB2999F1B95282900DF52FD /* roundtrip16.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip16.json; sourceTree = "<group>"; };
+		DAB299A01B95282900DF52FD /* roundtrip17.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip17.json; sourceTree = "<group>"; };
+		DAB299A11B95282900DF52FD /* roundtrip18.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip18.json; sourceTree = "<group>"; };
+		DAB299A21B95282900DF52FD /* roundtrip19.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip19.json; sourceTree = "<group>"; };
+		DAB299A31B95282900DF52FD /* roundtrip20.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip20.json; sourceTree = "<group>"; };
+		DAB299A41B95282900DF52FD /* roundtrip21.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip21.json; sourceTree = "<group>"; };
+		DAB299A51B95282900DF52FD /* roundtrip22.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip22.json; sourceTree = "<group>"; };
+		DAB299A61B95282900DF52FD /* roundtrip23.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip23.json; sourceTree = "<group>"; };
+		DAB299A71B95282900DF52FD /* roundtrip24.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip24.json; sourceTree = "<group>"; };
+		DAB299A81B95282900DF52FD /* roundtrip25.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip25.json; sourceTree = "<group>"; };
+		DAB299A91B95282900DF52FD /* roundtrip26.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip26.json; sourceTree = "<group>"; };
+		DAB299AA1B95282900DF52FD /* roundtrip27.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roundtrip27.json; sourceTree = "<group>"; };
+		DAB299AB1B95282900DF52FD /* twitter.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = twitter.json; sourceTree = "<group>"; };
+		DAB29C2B1B95299400DF52FD /* jsonstat_nlohmanntest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jsonstat_nlohmanntest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB29C531B9538E300DF52FD /* nativejson */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = nativejson; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB29C831B953A1900DF52FD /* jsonstat_rapidjsontest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jsonstat_rapidjsontest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA82460D1B9657A800546050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8246351B965BD100546050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA82465D1B965C5D00546050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB28B171B9519E500DF52FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB29C261B95299400DF52FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB29C4E1B9538E300DF52FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB29C7E1B953A1900DF52FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB28B111B9519E500DF52FD = {
+			isa = PBXGroup;
+			children = (
+				DAB299651B95280500DF52FD /* data */,
+				DAB28B1C1B9519E500DF52FD /* src */,
+				DAB28B291B95268E00DF52FD /* thirdparty */,
+				DAB28B1B1B9519E500DF52FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB28B1B1B9519E500DF52FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB28B1A1B9519E500DF52FD /* jsonstat_dropboxjson11test */,
+				DAB29C2B1B95299400DF52FD /* jsonstat_nlohmanntest */,
+				DAB29C531B9538E300DF52FD /* nativejson */,
+				DAB29C831B953A1900DF52FD /* jsonstat_rapidjsontest */,
+				DA8246121B9657A800546050 /* jsonstat_rapidjsonautoutftest */,
+				DA82463A1B965BD100546050 /* jsonstat_rapidjsonfullprectest */,
+				DA8246621B965C5D00546050 /* jsonstat_rapidjsoninsitutest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB28B1C1B9519E500DF52FD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DAB28B261B95262C00DF52FD /* cjsonlibs */,
+				DAB2995C1B95278A00DF52FD /* config.h */,
+				DAB28B271B95264100DF52FD /* jsonstat */,
+				DAB2995D1B95278A00DF52FD /* main.cpp */,
+				DAB2995E1B95278A00DF52FD /* memorystat.cpp */,
+				DAB2995F1B95278A00DF52FD /* memorystat.h */,
+				DAB299601B95278A00DF52FD /* resultfilename.h */,
+				DAB299611B95278A00DF52FD /* test.h */,
+				DAB28B281B95265000DF52FD /* tests */,
+				DAB299621B95278A00DF52FD /* timer.h */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = SOURCE_ROOT;
+		};
+		DAB28B261B95262C00DF52FD /* cjsonlibs */ = {
+			isa = PBXGroup;
+			children = (
+				DAB299451B95273900DF52FD /* cjson_all.c */,
+				DAB299461B95273900DF52FD /* jansson_all.c */,
+				DAB299471B95273900DF52FD /* jansson_renaming.h */,
+				DAB299481B95273900DF52FD /* jsonc_all.c */,
+				DAB299491B95273900DF52FD /* parson_all.c */,
+				DAB2994A1B95273900DF52FD /* parson_renaming.h */,
+				DAB2994B1B95273900DF52FD /* udpjson_all.c */,
+				DAB2994C1B95273900DF52FD /* ujson4c_all.c */,
+				DAB2994D1B95273900DF52FD /* ultrajsondec_all.c */,
+				DAB2994E1B95273900DF52FD /* vincenthz_libjson_all.c */,
+				DAB2994F1B95273900DF52FD /* vincenthz_libjson_renaming.h */,
+				DAB299501B95273900DF52FD /* yajl_all.c */,
+			);
+			path = cjsonlibs;
+			sourceTree = "<group>";
+		};
+		DAB28B271B95264100DF52FD /* jsonstat */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2995A1B95275300DF52FD /* jsonstatmain.cpp */,
+			);
+			path = jsonstat;
+			sourceTree = "<group>";
+		};
+		DAB28B281B95265000DF52FD /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB28B241B951A3000DF52FD /* dropboxjson11test.cpp */,
+				DAB2993B1B95270F00DF52FD /* nlohmanntest.cpp */,
+				DAB2993C1B95270F00DF52FD /* rapidjsonautoutftest.cpp */,
+				DAB2993D1B95270F00DF52FD /* rapidjsonfullprectest.cpp */,
+				DAB2993E1B95270F00DF52FD /* rapidjsoninsitutest.cpp */,
+				DA8245E51B964D4300546050 /* rapidjsonvanillatest.cpp */,
+				DAB2993F1B95270F00DF52FD /* rapidjsontest.cpp */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		DAB28B291B95268E00DF52FD /* thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				DAB28C891B95268E00DF52FD /* dropbox-json11 */,
+				DAB28CD21B95268E00DF52FD /* include */,
+				DAB292F01B95269000DF52FD /* nlohmann */,
+				DAB293231B95269000DF52FD /* rapidjson */,
+			);
+			name = thirdparty;
+			path = ../../thirdparty;
+			sourceTree = SOURCE_ROOT;
+		};
+		DAB28C891B95268E00DF52FD /* dropbox-json11 */ = {
+			isa = PBXGroup;
+			children = (
+				DAB28C8A1B95268E00DF52FD /* .gitignore */,
+				DAB28C8B1B95268E00DF52FD /* json11.cpp */,
+				DAB28C8C1B95268E00DF52FD /* json11.hpp */,
+				DAB28C8D1B95268E00DF52FD /* LICENSE.txt */,
+				DAB28C8E1B95268E00DF52FD /* Makefile */,
+				DAB28C8F1B95268E00DF52FD /* README.md */,
+				DAB28C901B95268E00DF52FD /* test.cpp */,
+			);
+			path = "dropbox-json11";
+			sourceTree = "<group>";
+		};
+		DAB28CD21B95268E00DF52FD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DAB28CD31B95268E00DF52FD /* config.h */,
+				DAB28CD41B95268E00DF52FD /* Export.h */,
+				DAB28CD51B95268E00DF52FD /* jansson_config.h */,
+				DAB28CD61B95268E00DF52FD /* jeayeson */,
+				DAB28CDB1B95268E00DF52FD /* json_config.h */,
+				DAB28CDC1B95268E00DF52FD /* machine.h */,
+				DAB28CDD1B95268E00DF52FD /* yajl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DAB28CD61B95268E00DF52FD /* jeayeson */ = {
+			isa = PBXGroup;
+			children = (
+				DAB28CD71B95268E00DF52FD /* include */,
+			);
+			path = jeayeson;
+			sourceTree = "<group>";
+		};
+		DAB28CD71B95268E00DF52FD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DAB28CD81B95268E00DF52FD /* config.hpp */,
+				DAB28CD91B95268E00DF52FD /* dummy */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DAB28CD91B95268E00DF52FD /* dummy */ = {
+			isa = PBXGroup;
+			children = (
+				DAB28CDA1B95268E00DF52FD /* note.txt */,
+			);
+			path = dummy;
+			sourceTree = "<group>";
+		};
+		DAB28CDD1B95268E00DF52FD /* yajl */ = {
+			isa = PBXGroup;
+			children = (
+				DAB28CDE1B95268E00DF52FD /* yajl_common.h */,
+				DAB28CDF1B95268E00DF52FD /* yajl_gen.h */,
+				DAB28CE01B95268E00DF52FD /* yajl_parse.h */,
+				DAB28CE11B95268E00DF52FD /* yajl_tree.h */,
+			);
+			path = yajl;
+			sourceTree = "<group>";
+		};
+		DAB292F01B95269000DF52FD /* nlohmann */ = {
+			isa = PBXGroup;
+			children = (
+				DAB292F11B95269000DF52FD /* .gitignore */,
+				DAB292F21B95269000DF52FD /* .travis.yml */,
+				DAB292F31B95269000DF52FD /* docs */,
+				DAB292F71B95269000DF52FD /* Doxyfile */,
+				DAB292F81B95269000DF52FD /* json.gif */,
+				DAB292F91B95269000DF52FD /* LICENSE.MIT */,
+				DAB292FA1B95269000DF52FD /* Makefile */,
+				DAB292FB1B95269000DF52FD /* mkdocs.yml */,
+				DAB292FC1B95269000DF52FD /* README.md */,
+				DAB292FD1B95269000DF52FD /* src */,
+				DAB293001B95269000DF52FD /* test */,
+			);
+			path = nlohmann;
+			sourceTree = "<group>";
+		};
+		DAB292F31B95269000DF52FD /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				DAB292F41B95269000DF52FD /* begin.md */,
+				DAB292F51B95269000DF52FD /* empty.md */,
+				DAB292F61B95269000DF52FD /* index.md */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		DAB292FD1B95269000DF52FD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DAB292FE1B95269000DF52FD /* json.hpp */,
+				DAB292FF1B95269000DF52FD /* json.hpp.re2c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		DAB293001B95269000DF52FD /* test */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293011B95269000DF52FD /* catch.hpp */,
+				DAB293021B95269000DF52FD /* unit.cpp */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		DAB293231B95269000DF52FD /* rapidjson */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293241B95269000DF52FD /* .gitignore */,
+				DAB293251B95269000DF52FD /* .gitmodules */,
+				DAB293261B95269000DF52FD /* .travis.yml */,
+				DAB293271B95269000DF52FD /* appveyor.yml */,
+				DAB293281B95269000DF52FD /* bin */,
+				DAB293611B95269000DF52FD /* CHANGELOG.md */,
+				DAB293621B95269000DF52FD /* CMakeLists.txt */,
+				DAB293631B95269000DF52FD /* CMakeModules */,
+				DAB293651B95269000DF52FD /* doc */,
+				DAB293981B95269000DF52FD /* example */,
+				DAB293AE1B95269000DF52FD /* include */,
+				DAB293CE1B95269000DF52FD /* license.txt */,
+				DAB293CF1B95269000DF52FD /* RapidJSON.pc.in */,
+				DAB293D01B95269000DF52FD /* RapidJSONConfig.cmake.in */,
+				DAB293D11B95269000DF52FD /* RapidJSONConfigVersion.cmake.in */,
+				DAB293D21B95269000DF52FD /* readme.md */,
+				DAB293D31B95269000DF52FD /* readme.zh-cn.md */,
+				DAB293D41B95269000DF52FD /* test */,
+				DAB293F11B95269000DF52FD /* thirdparty */,
+				DAB294B21B95269100DF52FD /* travis-doxygen.sh */,
+			);
+			path = rapidjson;
+			sourceTree = "<group>";
+		};
+		DAB293281B95269000DF52FD /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293291B95269000DF52FD /* data */,
+				DAB293301B95269000DF52FD /* encodings */,
+				DAB2933B1B95269000DF52FD /* jsonchecker */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		DAB293291B95269000DF52FD /* data */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2932A1B95269000DF52FD /* glossary.json */,
+				DAB2932B1B95269000DF52FD /* menu.json */,
+				DAB2932C1B95269000DF52FD /* readme.txt */,
+				DAB2932D1B95269000DF52FD /* sample.json */,
+				DAB2932E1B95269000DF52FD /* webapp.json */,
+				DAB2932F1B95269000DF52FD /* widget.json */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		DAB293301B95269000DF52FD /* encodings */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293311B95269000DF52FD /* utf16be.json */,
+				DAB293321B95269000DF52FD /* utf16bebom.json */,
+				DAB293331B95269000DF52FD /* utf16le.json */,
+				DAB293341B95269000DF52FD /* utf16lebom.json */,
+				DAB293351B95269000DF52FD /* utf32be.json */,
+				DAB293361B95269000DF52FD /* utf32bebom.json */,
+				DAB293371B95269000DF52FD /* utf32le.json */,
+				DAB293381B95269000DF52FD /* utf32lebom.json */,
+				DAB293391B95269000DF52FD /* utf8.json */,
+				DAB2933A1B95269000DF52FD /* utf8bom.json */,
+			);
+			path = encodings;
+			sourceTree = "<group>";
+		};
+		DAB2933B1B95269000DF52FD /* jsonchecker */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2933C1B95269000DF52FD /* fail1.json */,
+				DAB2933D1B95269000DF52FD /* fail10.json */,
+				DAB2933E1B95269000DF52FD /* fail11.json */,
+				DAB2933F1B95269000DF52FD /* fail12.json */,
+				DAB293401B95269000DF52FD /* fail13.json */,
+				DAB293411B95269000DF52FD /* fail14.json */,
+				DAB293421B95269000DF52FD /* fail15.json */,
+				DAB293431B95269000DF52FD /* fail16.json */,
+				DAB293441B95269000DF52FD /* fail17.json */,
+				DAB293451B95269000DF52FD /* fail18.json */,
+				DAB293461B95269000DF52FD /* fail19.json */,
+				DAB293471B95269000DF52FD /* fail2.json */,
+				DAB293481B95269000DF52FD /* fail20.json */,
+				DAB293491B95269000DF52FD /* fail21.json */,
+				DAB2934A1B95269000DF52FD /* fail22.json */,
+				DAB2934B1B95269000DF52FD /* fail23.json */,
+				DAB2934C1B95269000DF52FD /* fail24.json */,
+				DAB2934D1B95269000DF52FD /* fail25.json */,
+				DAB2934E1B95269000DF52FD /* fail26.json */,
+				DAB2934F1B95269000DF52FD /* fail27.json */,
+				DAB293501B95269000DF52FD /* fail28.json */,
+				DAB293511B95269000DF52FD /* fail29.json */,
+				DAB293521B95269000DF52FD /* fail3.json */,
+				DAB293531B95269000DF52FD /* fail30.json */,
+				DAB293541B95269000DF52FD /* fail31.json */,
+				DAB293551B95269000DF52FD /* fail32.json */,
+				DAB293561B95269000DF52FD /* fail33.json */,
+				DAB293571B95269000DF52FD /* fail4.json */,
+				DAB293581B95269000DF52FD /* fail5.json */,
+				DAB293591B95269000DF52FD /* fail6.json */,
+				DAB2935A1B95269000DF52FD /* fail7.json */,
+				DAB2935B1B95269000DF52FD /* fail8.json */,
+				DAB2935C1B95269000DF52FD /* fail9.json */,
+				DAB2935D1B95269000DF52FD /* pass1.json */,
+				DAB2935E1B95269000DF52FD /* pass2.json */,
+				DAB2935F1B95269000DF52FD /* pass3.json */,
+				DAB293601B95269000DF52FD /* readme.txt */,
+			);
+			path = jsonchecker;
+			sourceTree = "<group>";
+		};
+		DAB293631B95269000DF52FD /* CMakeModules */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293641B95269000DF52FD /* FindGTestSrc.cmake */,
+			);
+			path = CMakeModules;
+			sourceTree = "<group>";
+		};
+		DAB293651B95269000DF52FD /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293661B95269000DF52FD /* CMakeLists.txt */,
+				DAB293671B95269000DF52FD /* diagram */,
+				DAB2937D1B95269000DF52FD /* dom.md */,
+				DAB2937E1B95269000DF52FD /* dom.zh-cn.md */,
+				DAB2937F1B95269000DF52FD /* Doxyfile.in */,
+				DAB293801B95269000DF52FD /* Doxyfile.zh-cn.in */,
+				DAB293811B95269000DF52FD /* encoding.md */,
+				DAB293821B95269000DF52FD /* encoding.zh-cn.md */,
+				DAB293831B95269000DF52FD /* faq.md */,
+				DAB293841B95269000DF52FD /* faq.zh-cn.md */,
+				DAB293851B95269000DF52FD /* features.md */,
+				DAB293861B95269000DF52FD /* features.zh-cn.md */,
+				DAB293871B95269000DF52FD /* internals.md */,
+				DAB293881B95269000DF52FD /* logo */,
+				DAB2938B1B95269000DF52FD /* misc */,
+				DAB293901B95269000DF52FD /* performance.md */,
+				DAB293911B95269000DF52FD /* performance.zh-cn.md */,
+				DAB293921B95269000DF52FD /* sax.md */,
+				DAB293931B95269000DF52FD /* sax.zh-cn.md */,
+				DAB293941B95269000DF52FD /* stream.md */,
+				DAB293951B95269000DF52FD /* stream.zh-cn.md */,
+				DAB293961B95269000DF52FD /* tutorial.md */,
+				DAB293971B95269000DF52FD /* tutorial.zh-cn.md */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		DAB293671B95269000DF52FD /* diagram */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293681B95269000DF52FD /* architecture.dot */,
+				DAB293691B95269000DF52FD /* architecture.png */,
+				DAB2936A1B95269000DF52FD /* insituparsing.dot */,
+				DAB2936B1B95269000DF52FD /* insituparsing.png */,
+				DAB2936C1B95269000DF52FD /* iterative-parser-states-diagram.dot */,
+				DAB2936D1B95269000DF52FD /* iterative-parser-states-diagram.png */,
+				DAB2936E1B95269000DF52FD /* makefile */,
+				DAB2936F1B95269000DF52FD /* move1.dot */,
+				DAB293701B95269000DF52FD /* move1.png */,
+				DAB293711B95269000DF52FD /* move2.dot */,
+				DAB293721B95269000DF52FD /* move2.png */,
+				DAB293731B95269000DF52FD /* move3.dot */,
+				DAB293741B95269000DF52FD /* move3.png */,
+				DAB293751B95269000DF52FD /* normalparsing.dot */,
+				DAB293761B95269000DF52FD /* normalparsing.png */,
+				DAB293771B95269000DF52FD /* simpledom.dot */,
+				DAB293781B95269000DF52FD /* simpledom.png */,
+				DAB293791B95269000DF52FD /* tutorial.dot */,
+				DAB2937A1B95269000DF52FD /* tutorial.png */,
+				DAB2937B1B95269000DF52FD /* utilityclass.dot */,
+				DAB2937C1B95269000DF52FD /* utilityclass.png */,
+			);
+			path = diagram;
+			sourceTree = "<group>";
+		};
+		DAB293881B95269000DF52FD /* logo */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293891B95269000DF52FD /* rapidjson.png */,
+				DAB2938A1B95269000DF52FD /* rapidjson.svg */,
+			);
+			path = logo;
+			sourceTree = "<group>";
+		};
+		DAB2938B1B95269000DF52FD /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2938C1B95269000DF52FD /* doxygenextra.css */,
+				DAB2938D1B95269000DF52FD /* DoxygenLayout.xml */,
+				DAB2938E1B95269000DF52FD /* footer.html */,
+				DAB2938F1B95269000DF52FD /* header.html */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		DAB293981B95269000DF52FD /* example */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293991B95269000DF52FD /* capitalize */,
+				DAB2939B1B95269000DF52FD /* CMakeLists.txt */,
+				DAB2939C1B95269000DF52FD /* condense */,
+				DAB2939E1B95269000DF52FD /* messagereader */,
+				DAB293A01B95269000DF52FD /* pretty */,
+				DAB293A21B95269000DF52FD /* prettyauto */,
+				DAB293A41B95269000DF52FD /* serialize */,
+				DAB293A61B95269000DF52FD /* simpledom */,
+				DAB293A81B95269000DF52FD /* simplereader */,
+				DAB293AA1B95269000DF52FD /* simplewriter */,
+				DAB293AC1B95269000DF52FD /* tutorial */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		DAB293991B95269000DF52FD /* capitalize */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2939A1B95269000DF52FD /* capitalize.cpp */,
+			);
+			path = capitalize;
+			sourceTree = "<group>";
+		};
+		DAB2939C1B95269000DF52FD /* condense */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2939D1B95269000DF52FD /* condense.cpp */,
+			);
+			path = condense;
+			sourceTree = "<group>";
+		};
+		DAB2939E1B95269000DF52FD /* messagereader */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2939F1B95269000DF52FD /* messagereader.cpp */,
+			);
+			path = messagereader;
+			sourceTree = "<group>";
+		};
+		DAB293A01B95269000DF52FD /* pretty */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293A11B95269000DF52FD /* pretty.cpp */,
+			);
+			path = pretty;
+			sourceTree = "<group>";
+		};
+		DAB293A21B95269000DF52FD /* prettyauto */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293A31B95269000DF52FD /* prettyauto.cpp */,
+			);
+			path = prettyauto;
+			sourceTree = "<group>";
+		};
+		DAB293A41B95269000DF52FD /* serialize */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293A51B95269000DF52FD /* serialize.cpp */,
+			);
+			path = serialize;
+			sourceTree = "<group>";
+		};
+		DAB293A61B95269000DF52FD /* simpledom */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293A71B95269000DF52FD /* simpledom.cpp */,
+			);
+			path = simpledom;
+			sourceTree = "<group>";
+		};
+		DAB293A81B95269000DF52FD /* simplereader */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293A91B95269000DF52FD /* simplereader.cpp */,
+			);
+			path = simplereader;
+			sourceTree = "<group>";
+		};
+		DAB293AA1B95269000DF52FD /* simplewriter */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293AB1B95269000DF52FD /* simplewriter.cpp */,
+			);
+			path = simplewriter;
+			sourceTree = "<group>";
+		};
+		DAB293AC1B95269000DF52FD /* tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293AD1B95269000DF52FD /* tutorial.cpp */,
+			);
+			path = tutorial;
+			sourceTree = "<group>";
+		};
+		DAB293AE1B95269000DF52FD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293AF1B95269000DF52FD /* rapidjson */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DAB293AF1B95269000DF52FD /* rapidjson */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293B01B95269000DF52FD /* allocators.h */,
+				DAB293B11B95269000DF52FD /* document.h */,
+				DAB293B21B95269000DF52FD /* encodedstream.h */,
+				DAB293B31B95269000DF52FD /* encodings.h */,
+				DAB293B41B95269000DF52FD /* error */,
+				DAB293B71B95269000DF52FD /* filereadstream.h */,
+				DAB293B81B95269000DF52FD /* filewritestream.h */,
+				DAB293B91B95269000DF52FD /* internal */,
+				DAB293C41B95269000DF52FD /* memorybuffer.h */,
+				DAB293C51B95269000DF52FD /* memorystream.h */,
+				DAB293C61B95269000DF52FD /* msinttypes */,
+				DAB293C91B95269000DF52FD /* prettywriter.h */,
+				DAB293CA1B95269000DF52FD /* rapidjson.h */,
+				DAB293CB1B95269000DF52FD /* reader.h */,
+				DAB293CC1B95269000DF52FD /* stringbuffer.h */,
+				DAB293CD1B95269000DF52FD /* writer.h */,
+			);
+			path = rapidjson;
+			sourceTree = "<group>";
+		};
+		DAB293B41B95269000DF52FD /* error */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293B51B95269000DF52FD /* en.h */,
+				DAB293B61B95269000DF52FD /* error.h */,
+			);
+			path = error;
+			sourceTree = "<group>";
+		};
+		DAB293B91B95269000DF52FD /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293BA1B95269000DF52FD /* biginteger.h */,
+				DAB293BB1B95269000DF52FD /* diyfp.h */,
+				DAB293BC1B95269000DF52FD /* dtoa.h */,
+				DAB293BD1B95269000DF52FD /* ieee754.h */,
+				DAB293BE1B95269000DF52FD /* itoa.h */,
+				DAB293BF1B95269000DF52FD /* meta.h */,
+				DAB293C01B95269000DF52FD /* pow10.h */,
+				DAB293C11B95269000DF52FD /* stack.h */,
+				DAB293C21B95269000DF52FD /* strfunc.h */,
+				DAB293C31B95269000DF52FD /* strtod.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		DAB293C61B95269000DF52FD /* msinttypes */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293C71B95269000DF52FD /* inttypes.h */,
+				DAB293C81B95269000DF52FD /* stdint.h */,
+			);
+			path = msinttypes;
+			sourceTree = "<group>";
+		};
+		DAB293D41B95269000DF52FD /* test */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293D51B95269000DF52FD /* CMakeLists.txt */,
+				DAB293D61B95269000DF52FD /* perftest */,
+				DAB293DD1B95269000DF52FD /* unittest */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		DAB293D61B95269000DF52FD /* perftest */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293D71B95269000DF52FD /* CMakeLists.txt */,
+				DAB293D81B95269000DF52FD /* misctest.cpp */,
+				DAB293D91B95269000DF52FD /* perftest.cpp */,
+				DAB293DA1B95269000DF52FD /* perftest.h */,
+				DAB293DB1B95269000DF52FD /* platformtest.cpp */,
+				DAB293DC1B95269000DF52FD /* rapidjsontest.cpp */,
+			);
+			path = perftest;
+			sourceTree = "<group>";
+		};
+		DAB293DD1B95269000DF52FD /* unittest */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293DE1B95269000DF52FD /* allocatorstest.cpp */,
+				DAB293DF1B95269000DF52FD /* bigintegertest.cpp */,
+				DAB293E01B95269000DF52FD /* CMakeLists.txt */,
+				DAB293E11B95269000DF52FD /* documenttest.cpp */,
+				DAB293E21B95269000DF52FD /* encodedstreamtest.cpp */,
+				DAB293E31B95269000DF52FD /* encodingstest.cpp */,
+				DAB293E41B95269000DF52FD /* filestreamtest.cpp */,
+				DAB293E51B95269000DF52FD /* itoatest.cpp */,
+				DAB293E61B95269000DF52FD /* jsoncheckertest.cpp */,
+				DAB293E71B95269000DF52FD /* namespacetest.cpp */,
+				DAB293E81B95269000DF52FD /* prettywritertest.cpp */,
+				DAB293E91B95269000DF52FD /* readertest.cpp */,
+				DAB293EA1B95269000DF52FD /* simdtest.cpp */,
+				DAB293EB1B95269000DF52FD /* stringbuffertest.cpp */,
+				DAB293EC1B95269000DF52FD /* strtodtest.cpp */,
+				DAB293ED1B95269000DF52FD /* unittest.cpp */,
+				DAB293EE1B95269000DF52FD /* unittest.h */,
+				DAB293EF1B95269000DF52FD /* valuetest.cpp */,
+				DAB293F01B95269000DF52FD /* writertest.cpp */,
+			);
+			path = unittest;
+			sourceTree = "<group>";
+		};
+		DAB293F11B95269000DF52FD /* thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293F21B95269000DF52FD /* gtest */,
+			);
+			path = thirdparty;
+			sourceTree = "<group>";
+		};
+		DAB293F21B95269000DF52FD /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293F31B95269000DF52FD /* build-aux */,
+				DAB293F51B95269000DF52FD /* CHANGES */,
+				DAB293F61B95269000DF52FD /* cmake */,
+				DAB293F81B95269000DF52FD /* CMakeLists.txt */,
+				DAB293F91B95269000DF52FD /* codegear */,
+				DAB294001B95269000DF52FD /* configure.ac */,
+				DAB294011B95269000DF52FD /* CONTRIBUTORS */,
+				DAB294021B95269000DF52FD /* include */,
+				DAB2941D1B95269000DF52FD /* LICENSE */,
+				DAB2941E1B95269000DF52FD /* m4 */,
+				DAB294211B95269000DF52FD /* make */,
+				DAB294231B95269000DF52FD /* Makefile.am */,
+				DAB294241B95269000DF52FD /* msvc */,
+				DAB2942F1B95269000DF52FD /* README */,
+				DAB294301B95269000DF52FD /* samples */,
+				DAB294431B95269000DF52FD /* scripts */,
+				DAB2944E1B95269000DF52FD /* src */,
+				DAB294591B95269000DF52FD /* test */,
+				DAB294981B95269000DF52FD /* xcode */,
+			);
+			path = gtest;
+			sourceTree = "<group>";
+		};
+		DAB293F31B95269000DF52FD /* build-aux */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293F41B95269000DF52FD /* .keep */,
+			);
+			path = "build-aux";
+			sourceTree = "<group>";
+		};
+		DAB293F61B95269000DF52FD /* cmake */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293F71B95269000DF52FD /* internal_utils.cmake */,
+			);
+			path = cmake;
+			sourceTree = "<group>";
+		};
+		DAB293F91B95269000DF52FD /* codegear */ = {
+			isa = PBXGroup;
+			children = (
+				DAB293FA1B95269000DF52FD /* gtest.cbproj */,
+				DAB293FB1B95269000DF52FD /* gtest.groupproj */,
+				DAB293FC1B95269000DF52FD /* gtest_all.cc */,
+				DAB293FD1B95269000DF52FD /* gtest_link.cc */,
+				DAB293FE1B95269000DF52FD /* gtest_main.cbproj */,
+				DAB293FF1B95269000DF52FD /* gtest_unittest.cbproj */,
+			);
+			path = codegear;
+			sourceTree = "<group>";
+		};
+		DAB294021B95269000DF52FD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DAB294031B95269000DF52FD /* gtest */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DAB294031B95269000DF52FD /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				DAB294041B95269000DF52FD /* gtest-death-test.h */,
+				DAB294051B95269000DF52FD /* gtest-message.h */,
+				DAB294061B95269000DF52FD /* gtest-param-test.h */,
+				DAB294071B95269000DF52FD /* gtest-param-test.h.pump */,
+				DAB294081B95269000DF52FD /* gtest-printers.h */,
+				DAB294091B95269000DF52FD /* gtest-spi.h */,
+				DAB2940A1B95269000DF52FD /* gtest-test-part.h */,
+				DAB2940B1B95269000DF52FD /* gtest-typed-test.h */,
+				DAB2940C1B95269000DF52FD /* gtest.h */,
+				DAB2940D1B95269000DF52FD /* gtest_pred_impl.h */,
+				DAB2940E1B95269000DF52FD /* gtest_prod.h */,
+				DAB2940F1B95269000DF52FD /* internal */,
+			);
+			path = gtest;
+			sourceTree = "<group>";
+		};
+		DAB2940F1B95269000DF52FD /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				DAB294101B95269000DF52FD /* gtest-death-test-internal.h */,
+				DAB294111B95269000DF52FD /* gtest-filepath.h */,
+				DAB294121B95269000DF52FD /* gtest-internal.h */,
+				DAB294131B95269000DF52FD /* gtest-linked_ptr.h */,
+				DAB294141B95269000DF52FD /* gtest-param-util-generated.h */,
+				DAB294151B95269000DF52FD /* gtest-param-util-generated.h.pump */,
+				DAB294161B95269000DF52FD /* gtest-param-util.h */,
+				DAB294171B95269000DF52FD /* gtest-port.h */,
+				DAB294181B95269000DF52FD /* gtest-string.h */,
+				DAB294191B95269000DF52FD /* gtest-tuple.h */,
+				DAB2941A1B95269000DF52FD /* gtest-tuple.h.pump */,
+				DAB2941B1B95269000DF52FD /* gtest-type-util.h */,
+				DAB2941C1B95269000DF52FD /* gtest-type-util.h.pump */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		DAB2941E1B95269000DF52FD /* m4 */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2941F1B95269000DF52FD /* acx_pthread.m4 */,
+				DAB294201B95269000DF52FD /* gtest.m4 */,
+			);
+			path = m4;
+			sourceTree = "<group>";
+		};
+		DAB294211B95269000DF52FD /* make */ = {
+			isa = PBXGroup;
+			children = (
+				DAB294221B95269000DF52FD /* Makefile */,
+			);
+			path = make;
+			sourceTree = "<group>";
+		};
+		DAB294241B95269000DF52FD /* msvc */ = {
+			isa = PBXGroup;
+			children = (
+				DAB294251B95269000DF52FD /* gtest-md.sln */,
+				DAB294261B95269000DF52FD /* gtest-md.vcproj */,
+				DAB294271B95269000DF52FD /* gtest.sln */,
+				DAB294281B95269000DF52FD /* gtest.vcproj */,
+				DAB294291B95269000DF52FD /* gtest_main-md.vcproj */,
+				DAB2942A1B95269000DF52FD /* gtest_main.vcproj */,
+				DAB2942B1B95269000DF52FD /* gtest_prod_test-md.vcproj */,
+				DAB2942C1B95269000DF52FD /* gtest_prod_test.vcproj */,
+				DAB2942D1B95269000DF52FD /* gtest_unittest-md.vcproj */,
+				DAB2942E1B95269000DF52FD /* gtest_unittest.vcproj */,
+			);
+			path = msvc;
+			sourceTree = "<group>";
+		};
+		DAB294301B95269000DF52FD /* samples */ = {
+			isa = PBXGroup;
+			children = (
+				DAB294311B95269000DF52FD /* prime_tables.h */,
+				DAB294321B95269000DF52FD /* sample1.cc */,
+				DAB294331B95269000DF52FD /* sample1.h */,
+				DAB294341B95269000DF52FD /* sample10_unittest.cc */,
+				DAB294351B95269000DF52FD /* sample1_unittest.cc */,
+				DAB294361B95269000DF52FD /* sample2.cc */,
+				DAB294371B95269000DF52FD /* sample2.h */,
+				DAB294381B95269000DF52FD /* sample2_unittest.cc */,
+				DAB294391B95269000DF52FD /* sample3-inl.h */,
+				DAB2943A1B95269000DF52FD /* sample3_unittest.cc */,
+				DAB2943B1B95269000DF52FD /* sample4.cc */,
+				DAB2943C1B95269000DF52FD /* sample4.h */,
+				DAB2943D1B95269000DF52FD /* sample4_unittest.cc */,
+				DAB2943E1B95269000DF52FD /* sample5_unittest.cc */,
+				DAB2943F1B95269000DF52FD /* sample6_unittest.cc */,
+				DAB294401B95269000DF52FD /* sample7_unittest.cc */,
+				DAB294411B95269000DF52FD /* sample8_unittest.cc */,
+				DAB294421B95269000DF52FD /* sample9_unittest.cc */,
+			);
+			path = samples;
+			sourceTree = "<group>";
+		};
+		DAB294431B95269000DF52FD /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				DAB294441B95269000DF52FD /* common.py */,
+				DAB294451B95269000DF52FD /* fuse_gtest_files.py */,
+				DAB294461B95269000DF52FD /* gen_gtest_pred_impl.py */,
+				DAB294471B95269000DF52FD /* gtest-config.in */,
+				DAB294481B95269000DF52FD /* pump.py */,
+				DAB294491B95269000DF52FD /* release_docs.py */,
+				DAB2944A1B95269000DF52FD /* test */,
+				DAB2944C1B95269000DF52FD /* upload.py */,
+				DAB2944D1B95269000DF52FD /* upload_gtest.py */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		DAB2944A1B95269000DF52FD /* test */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2944B1B95269000DF52FD /* Makefile */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		DAB2944E1B95269000DF52FD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2944F1B95269000DF52FD /* gtest-all.cc */,
+				DAB294501B95269000DF52FD /* gtest-death-test.cc */,
+				DAB294511B95269000DF52FD /* gtest-filepath.cc */,
+				DAB294521B95269000DF52FD /* gtest-internal-inl.h */,
+				DAB294531B95269000DF52FD /* gtest-port.cc */,
+				DAB294541B95269000DF52FD /* gtest-printers.cc */,
+				DAB294551B95269000DF52FD /* gtest-test-part.cc */,
+				DAB294561B95269000DF52FD /* gtest-typed-test.cc */,
+				DAB294571B95269000DF52FD /* gtest.cc */,
+				DAB294581B95269000DF52FD /* gtest_main.cc */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		DAB294591B95269000DF52FD /* test */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2945A1B95269000DF52FD /* gtest-death-test_ex_test.cc */,
+				DAB2945B1B95269000DF52FD /* gtest-death-test_test.cc */,
+				DAB2945C1B95269000DF52FD /* gtest-filepath_test.cc */,
+				DAB2945D1B95269000DF52FD /* gtest-linked_ptr_test.cc */,
+				DAB2945E1B95269000DF52FD /* gtest-listener_test.cc */,
+				DAB2945F1B95269000DF52FD /* gtest-message_test.cc */,
+				DAB294601B95269000DF52FD /* gtest-options_test.cc */,
+				DAB294611B95269000DF52FD /* gtest-param-test2_test.cc */,
+				DAB294621B95269000DF52FD /* gtest-param-test_test.cc */,
+				DAB294631B95269000DF52FD /* gtest-param-test_test.h */,
+				DAB294641B95269000DF52FD /* gtest-port_test.cc */,
+				DAB294651B95269000DF52FD /* gtest-printers_test.cc */,
+				DAB294661B95269000DF52FD /* gtest-test-part_test.cc */,
+				DAB294671B95269000DF52FD /* gtest-tuple_test.cc */,
+				DAB294681B95269000DF52FD /* gtest-typed-test2_test.cc */,
+				DAB294691B95269000DF52FD /* gtest-typed-test_test.cc */,
+				DAB2946A1B95269000DF52FD /* gtest-typed-test_test.h */,
+				DAB2946B1B95269000DF52FD /* gtest-unittest-api_test.cc */,
+				DAB2946C1B95269000DF52FD /* gtest_all_test.cc */,
+				DAB2946D1B95269000DF52FD /* gtest_break_on_failure_unittest.py */,
+				DAB2946E1B95269000DF52FD /* gtest_break_on_failure_unittest_.cc */,
+				DAB2946F1B95269000DF52FD /* gtest_catch_exceptions_test.py */,
+				DAB294701B95269000DF52FD /* gtest_catch_exceptions_test_.cc */,
+				DAB294711B95269000DF52FD /* gtest_color_test.py */,
+				DAB294721B95269000DF52FD /* gtest_color_test_.cc */,
+				DAB294731B95269000DF52FD /* gtest_env_var_test.py */,
+				DAB294741B95269000DF52FD /* gtest_env_var_test_.cc */,
+				DAB294751B95269000DF52FD /* gtest_environment_test.cc */,
+				DAB294761B95269000DF52FD /* gtest_filter_unittest.py */,
+				DAB294771B95269000DF52FD /* gtest_filter_unittest_.cc */,
+				DAB294781B95269000DF52FD /* gtest_help_test.py */,
+				DAB294791B95269000DF52FD /* gtest_help_test_.cc */,
+				DAB2947A1B95269000DF52FD /* gtest_list_tests_unittest.py */,
+				DAB2947B1B95269000DF52FD /* gtest_list_tests_unittest_.cc */,
+				DAB2947C1B95269000DF52FD /* gtest_main_unittest.cc */,
+				DAB2947D1B95269000DF52FD /* gtest_no_test_unittest.cc */,
+				DAB2947E1B95269000DF52FD /* gtest_output_test.py */,
+				DAB2947F1B95269000DF52FD /* gtest_output_test_.cc */,
+				DAB294801B95269000DF52FD /* gtest_output_test_golden_lin.txt */,
+				DAB294811B95269000DF52FD /* gtest_pred_impl_unittest.cc */,
+				DAB294821B95269000DF52FD /* gtest_premature_exit_test.cc */,
+				DAB294831B95269000DF52FD /* gtest_prod_test.cc */,
+				DAB294841B95269000DF52FD /* gtest_repeat_test.cc */,
+				DAB294851B95269000DF52FD /* gtest_shuffle_test.py */,
+				DAB294861B95269000DF52FD /* gtest_shuffle_test_.cc */,
+				DAB294871B95269000DF52FD /* gtest_sole_header_test.cc */,
+				DAB294881B95269000DF52FD /* gtest_stress_test.cc */,
+				DAB294891B95269000DF52FD /* gtest_test_utils.py */,
+				DAB2948A1B95269000DF52FD /* gtest_throw_on_failure_ex_test.cc */,
+				DAB2948B1B95269000DF52FD /* gtest_throw_on_failure_test.py */,
+				DAB2948C1B95269000DF52FD /* gtest_throw_on_failure_test_.cc */,
+				DAB2948D1B95269000DF52FD /* gtest_uninitialized_test.py */,
+				DAB2948E1B95269000DF52FD /* gtest_uninitialized_test_.cc */,
+				DAB2948F1B95269000DF52FD /* gtest_unittest.cc */,
+				DAB294901B95269000DF52FD /* gtest_xml_outfile1_test_.cc */,
+				DAB294911B95269000DF52FD /* gtest_xml_outfile2_test_.cc */,
+				DAB294921B95269000DF52FD /* gtest_xml_outfiles_test.py */,
+				DAB294931B95269000DF52FD /* gtest_xml_output_unittest.py */,
+				DAB294941B95269000DF52FD /* gtest_xml_output_unittest_.cc */,
+				DAB294951B95269000DF52FD /* gtest_xml_test_utils.py */,
+				DAB294961B95269000DF52FD /* production.cc */,
+				DAB294971B95269000DF52FD /* production.h */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		DAB294981B95269000DF52FD /* xcode */ = {
+			isa = PBXGroup;
+			children = (
+				DAB294991B95269000DF52FD /* Config */,
+				DAB294A01B95269000DF52FD /* gtest.xcodeproj */,
+				DAB294A31B95269100DF52FD /* Resources */,
+				DAB294A51B95269100DF52FD /* Samples */,
+				DAB294AF1B95269100DF52FD /* Scripts */,
+			);
+			path = xcode;
+			sourceTree = "<group>";
+		};
+		DAB294991B95269000DF52FD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2949A1B95269000DF52FD /* DebugProject.xcconfig */,
+				DAB2949B1B95269000DF52FD /* FrameworkTarget.xcconfig */,
+				DAB2949C1B95269000DF52FD /* General.xcconfig */,
+				DAB2949D1B95269000DF52FD /* ReleaseProject.xcconfig */,
+				DAB2949E1B95269000DF52FD /* StaticLibraryTarget.xcconfig */,
+				DAB2949F1B95269000DF52FD /* TestTarget.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		DAB294A11B95269000DF52FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2991B1B95269200DF52FD /* gtest.framework */,
+				DAB2991D1B95269200DF52FD /* libgtest.a */,
+				DAB2991F1B95269200DF52FD /* libgtest_main.a */,
+				DAB299211B95269200DF52FD /* gtest_unittest-framework */,
+				DAB299231B95269200DF52FD /* gtest_unittest */,
+				DAB299251B95269200DF52FD /* sample1_unittest-framework */,
+				DAB299271B95269200DF52FD /* sample1_unittest-static */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB294A31B95269100DF52FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAB294A41B95269100DF52FD /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DAB294A51B95269100DF52FD /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				DAB294A61B95269100DF52FD /* FrameworkSample */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		DAB294A61B95269100DF52FD /* FrameworkSample */ = {
+			isa = PBXGroup;
+			children = (
+				DAB294A71B95269100DF52FD /* Info.plist */,
+				DAB294A81B95269100DF52FD /* runtests.sh */,
+				DAB294A91B95269100DF52FD /* widget.cc */,
+				DAB294AA1B95269100DF52FD /* widget.h */,
+				DAB294AB1B95269100DF52FD /* widget_test.cc */,
+				DAB294AC1B95269100DF52FD /* WidgetFramework.xcodeproj */,
+			);
+			path = FrameworkSample;
+			sourceTree = "<group>";
+		};
+		DAB294AD1B95269100DF52FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2992D1B95269200DF52FD /* Widget.framework */,
+				DAB2992F1B95269200DF52FD /* WidgetFrameworkTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB294AF1B95269100DF52FD /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				DAB294B01B95269100DF52FD /* runtests.sh */,
+				DAB294B11B95269100DF52FD /* versiongenerate.py */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		DAB299651B95280500DF52FD /* data */ = {
+			isa = PBXGroup;
+			children = (
+				DA8245EA1B9653A500546050 /* LevelsConfig.json */,
+				DA8245E91B964EAE00546050 /* LevelsConfigWhitespace.json */,
+				DAB299661B95282900DF52FD /* canada.json */,
+				DAB299671B95282900DF52FD /* citm_catalog.json */,
+				DAB299681B95282900DF52FD /* data.txt */,
+				DAB299691B95282900DF52FD /* jsonchecker */,
+				DAB2998F1B95282900DF52FD /* roundtrip */,
+				DAB299AB1B95282900DF52FD /* twitter.json */,
+			);
+			name = data;
+			path = ../../data;
+			sourceTree = SOURCE_ROOT;
+		};
+		DAB299691B95282900DF52FD /* jsonchecker */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2996A1B95282900DF52FD /* fail01_EXCLUDE.json */,
+				DAB2996B1B95282900DF52FD /* fail02.json */,
+				DAB2996C1B95282900DF52FD /* fail03.json */,
+				DAB2996D1B95282900DF52FD /* fail04.json */,
+				DAB2996E1B95282900DF52FD /* fail05.json */,
+				DAB2996F1B95282900DF52FD /* fail06.json */,
+				DAB299701B95282900DF52FD /* fail07.json */,
+				DAB299711B95282900DF52FD /* fail08.json */,
+				DAB299721B95282900DF52FD /* fail09.json */,
+				DAB299731B95282900DF52FD /* fail10.json */,
+				DAB299741B95282900DF52FD /* fail11.json */,
+				DAB299751B95282900DF52FD /* fail12.json */,
+				DAB299761B95282900DF52FD /* fail13.json */,
+				DAB299771B95282900DF52FD /* fail14.json */,
+				DAB299781B95282900DF52FD /* fail15.json */,
+				DAB299791B95282900DF52FD /* fail16.json */,
+				DAB2997A1B95282900DF52FD /* fail17.json */,
+				DAB2997B1B95282900DF52FD /* fail18_EXCLUDE.json */,
+				DAB2997C1B95282900DF52FD /* fail19.json */,
+				DAB2997D1B95282900DF52FD /* fail20.json */,
+				DAB2997E1B95282900DF52FD /* fail21.json */,
+				DAB2997F1B95282900DF52FD /* fail22.json */,
+				DAB299801B95282900DF52FD /* fail23.json */,
+				DAB299811B95282900DF52FD /* fail24.json */,
+				DAB299821B95282900DF52FD /* fail25.json */,
+				DAB299831B95282900DF52FD /* fail26.json */,
+				DAB299841B95282900DF52FD /* fail27.json */,
+				DAB299851B95282900DF52FD /* fail28.json */,
+				DAB299861B95282900DF52FD /* fail29.json */,
+				DAB299871B95282900DF52FD /* fail30.json */,
+				DAB299881B95282900DF52FD /* fail31.json */,
+				DAB299891B95282900DF52FD /* fail32.json */,
+				DAB2998A1B95282900DF52FD /* fail33.json */,
+				DAB2998B1B95282900DF52FD /* pass01.json */,
+				DAB2998C1B95282900DF52FD /* pass02.json */,
+				DAB2998D1B95282900DF52FD /* pass03.json */,
+				DAB2998E1B95282900DF52FD /* readme.txt */,
+			);
+			path = jsonchecker;
+			sourceTree = "<group>";
+		};
+		DAB2998F1B95282900DF52FD /* roundtrip */ = {
+			isa = PBXGroup;
+			children = (
+				DAB299901B95282900DF52FD /* roundtrip01.json */,
+				DAB299911B95282900DF52FD /* roundtrip02.json */,
+				DAB299921B95282900DF52FD /* roundtrip03.json */,
+				DAB299931B95282900DF52FD /* roundtrip04.json */,
+				DAB299941B95282900DF52FD /* roundtrip05.json */,
+				DAB299951B95282900DF52FD /* roundtrip06.json */,
+				DAB299961B95282900DF52FD /* roundtrip07.json */,
+				DAB299971B95282900DF52FD /* roundtrip08.json */,
+				DAB299981B95282900DF52FD /* roundtrip09.json */,
+				DAB299991B95282900DF52FD /* roundtrip10.json */,
+				DAB2999A1B95282900DF52FD /* roundtrip11.json */,
+				DAB2999B1B95282900DF52FD /* roundtrip12.json */,
+				DAB2999C1B95282900DF52FD /* roundtrip13.json */,
+				DAB2999D1B95282900DF52FD /* roundtrip14.json */,
+				DAB2999E1B95282900DF52FD /* roundtrip15.json */,
+				DAB2999F1B95282900DF52FD /* roundtrip16.json */,
+				DAB299A01B95282900DF52FD /* roundtrip17.json */,
+				DAB299A11B95282900DF52FD /* roundtrip18.json */,
+				DAB299A21B95282900DF52FD /* roundtrip19.json */,
+				DAB299A31B95282900DF52FD /* roundtrip20.json */,
+				DAB299A41B95282900DF52FD /* roundtrip21.json */,
+				DAB299A51B95282900DF52FD /* roundtrip22.json */,
+				DAB299A61B95282900DF52FD /* roundtrip23.json */,
+				DAB299A71B95282900DF52FD /* roundtrip24.json */,
+				DAB299A81B95282900DF52FD /* roundtrip25.json */,
+				DAB299A91B95282900DF52FD /* roundtrip26.json */,
+				DAB299AA1B95282900DF52FD /* roundtrip27.json */,
+			);
+			path = roundtrip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA8245EB1B9657A800546050 /* jsonstat_rapidjsonautoutftest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA82460F1B9657A800546050 /* Build configuration list for PBXNativeTarget "jsonstat_rapidjsonautoutftest" */;
+			buildPhases = (
+				DA8245EC1B9657A800546050 /* Sources */,
+				DA82460D1B9657A800546050 /* Frameworks */,
+				DA82460E1B9657A800546050 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jsonstat_rapidjsonautoutftest;
+			productName = jsontest;
+			productReference = DA8246121B9657A800546050 /* jsonstat_rapidjsonautoutftest */;
+			productType = "com.apple.product-type.tool";
+		};
+		DA8246131B965BD100546050 /* jsonstat_rapidjsonfullprectest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8246371B965BD100546050 /* Build configuration list for PBXNativeTarget "jsonstat_rapidjsonfullprectest" */;
+			buildPhases = (
+				DA8246141B965BD100546050 /* Sources */,
+				DA8246351B965BD100546050 /* Frameworks */,
+				DA8246361B965BD100546050 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jsonstat_rapidjsonfullprectest;
+			productName = jsontest;
+			productReference = DA82463A1B965BD100546050 /* jsonstat_rapidjsonfullprectest */;
+			productType = "com.apple.product-type.tool";
+		};
+		DA82463B1B965C5D00546050 /* jsonstat_rapidjsoninsitutest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA82465F1B965C5D00546050 /* Build configuration list for PBXNativeTarget "jsonstat_rapidjsoninsitutest" */;
+			buildPhases = (
+				DA82463C1B965C5D00546050 /* Sources */,
+				DA82465D1B965C5D00546050 /* Frameworks */,
+				DA82465E1B965C5D00546050 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jsonstat_rapidjsoninsitutest;
+			productName = jsontest;
+			productReference = DA8246621B965C5D00546050 /* jsonstat_rapidjsoninsitutest */;
+			productType = "com.apple.product-type.tool";
+		};
+		DAB28B191B9519E500DF52FD /* jsonstat_dropboxjson11test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB28B211B9519E500DF52FD /* Build configuration list for PBXNativeTarget "jsonstat_dropboxjson11test" */;
+			buildPhases = (
+				DAB28B161B9519E500DF52FD /* Sources */,
+				DAB28B171B9519E500DF52FD /* Frameworks */,
+				DAB28B181B9519E500DF52FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jsonstat_dropboxjson11test;
+			productName = jsontest;
+			productReference = DAB28B1A1B9519E500DF52FD /* jsonstat_dropboxjson11test */;
+			productType = "com.apple.product-type.tool";
+		};
+		DAB299AC1B95299400DF52FD /* jsonstat_nlohmanntest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB29C281B95299400DF52FD /* Build configuration list for PBXNativeTarget "jsonstat_nlohmanntest" */;
+			buildPhases = (
+				DAB299AD1B95299400DF52FD /* Sources */,
+				DAB29C261B95299400DF52FD /* Frameworks */,
+				DAB29C271B95299400DF52FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jsonstat_nlohmanntest;
+			productName = jsontest;
+			productReference = DAB29C2B1B95299400DF52FD /* jsonstat_nlohmanntest */;
+			productType = "com.apple.product-type.tool";
+		};
+		DAB29C2C1B9538E300DF52FD /* nativejson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB29C501B9538E300DF52FD /* Build configuration list for PBXNativeTarget "nativejson" */;
+			buildPhases = (
+				DAB29C2D1B9538E300DF52FD /* Sources */,
+				DAB29C4E1B9538E300DF52FD /* Frameworks */,
+				DAB29C4F1B9538E300DF52FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nativejson;
+			productName = jsontest;
+			productReference = DAB29C531B9538E300DF52FD /* nativejson */;
+			productType = "com.apple.product-type.tool";
+		};
+		DAB29C5C1B953A1900DF52FD /* jsonstat_rapidjsontest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB29C801B953A1900DF52FD /* Build configuration list for PBXNativeTarget "jsonstat_rapidjsontest" */;
+			buildPhases = (
+				DAB29C5D1B953A1900DF52FD /* Sources */,
+				DAB29C7E1B953A1900DF52FD /* Frameworks */,
+				DAB29C7F1B953A1900DF52FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jsonstat_rapidjsontest;
+			productName = jsontest;
+			productReference = DAB29C831B953A1900DF52FD /* jsonstat_rapidjsontest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB28B121B9519E500DF52FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Paul;
+				TargetAttributes = {
+					DAB28B191B9519E500DF52FD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = DAB28B151B9519E500DF52FD /* Build configuration list for PBXProject "jsontest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DAB28B111B9519E500DF52FD;
+			productRefGroup = DAB28B1B1B9519E500DF52FD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DAB294A11B95269000DF52FD /* Products */;
+					ProjectRef = DAB294A01B95269000DF52FD /* gtest.xcodeproj */;
+				},
+				{
+					ProductGroup = DAB294AD1B95269100DF52FD /* Products */;
+					ProjectRef = DAB294AC1B95269100DF52FD /* WidgetFramework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DAB28B191B9519E500DF52FD /* jsonstat_dropboxjson11test */,
+				DAB299AC1B95299400DF52FD /* jsonstat_nlohmanntest */,
+				DA8245EB1B9657A800546050 /* jsonstat_rapidjsonautoutftest */,
+				DA8246131B965BD100546050 /* jsonstat_rapidjsonfullprectest */,
+				DA82463B1B965C5D00546050 /* jsonstat_rapidjsoninsitutest */,
+				DAB29C5C1B953A1900DF52FD /* jsonstat_rapidjsontest */,
+				DAB29C2C1B9538E300DF52FD /* nativejson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DAB2991B1B95269200DF52FD /* gtest.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = gtest.framework;
+			remoteRef = DAB2991A1B95269200DF52FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DAB2991D1B95269200DF52FD /* libgtest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgtest.a;
+			remoteRef = DAB2991C1B95269200DF52FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DAB2991F1B95269200DF52FD /* libgtest_main.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgtest_main.a;
+			remoteRef = DAB2991E1B95269200DF52FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DAB299211B95269200DF52FD /* gtest_unittest-framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "gtest_unittest-framework";
+			remoteRef = DAB299201B95269200DF52FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DAB299231B95269200DF52FD /* gtest_unittest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = gtest_unittest;
+			remoteRef = DAB299221B95269200DF52FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DAB299251B95269200DF52FD /* sample1_unittest-framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "sample1_unittest-framework";
+			remoteRef = DAB299241B95269200DF52FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DAB299271B95269200DF52FD /* sample1_unittest-static */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "sample1_unittest-static";
+			remoteRef = DAB299261B95269200DF52FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DAB2992D1B95269200DF52FD /* Widget.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Widget.framework;
+			remoteRef = DAB2992C1B95269200DF52FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DAB2992F1B95269200DF52FD /* WidgetFrameworkTest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = WidgetFrameworkTest;
+			remoteRef = DAB2992E1B95269200DF52FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA8245EC1B9657A800546050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8246641B965CED00546050 /* rapidjsonautoutftest.cpp in Sources */,
+				DA8246021B9657A800546050 /* memorystat.cpp in Sources */,
+				DA82460A1B9657A800546050 /* jsonstatmain.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8246141B965BD100546050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8246651B965CF300546050 /* rapidjsonfullprectest.cpp in Sources */,
+				DA82462A1B965BD100546050 /* memorystat.cpp in Sources */,
+				DA8246321B965BD100546050 /* jsonstatmain.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA82463C1B965C5D00546050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8246661B965CFB00546050 /* rapidjsoninsitutest.cpp in Sources */,
+				DA8246521B965C5D00546050 /* memorystat.cpp in Sources */,
+				DA82465A1B965C5D00546050 /* jsonstatmain.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB28B161B9519E500DF52FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB28B251B951A3000DF52FD /* dropboxjson11test.cpp in Sources */,
+				DA8245E21B953DA200546050 /* memorystat.cpp in Sources */,
+				DAB2995B1B95275300DF52FD /* jsonstatmain.cpp in Sources */,
+				DAB297151B95269100DF52FD /* json11.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB299AD1B95299400DF52FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8245E31B953DA300546050 /* memorystat.cpp in Sources */,
+				DAB29C571B95392E00DF52FD /* nlohmanntest.cpp in Sources */,
+				DAB29BCB1B95299400DF52FD /* jsonstatmain.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB29C2D1B9538E300DF52FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8245E81B964DB000546050 /* rapidjsonvanillatest.cpp in Sources */,
+				DA8245E11B953D4700546050 /* json11.cpp in Sources */,
+				DAB29C5A1B95393600DF52FD /* rapidjsoninsitutest.cpp in Sources */,
+				DAB29C551B95392700DF52FD /* dropboxjson11test.cpp in Sources */,
+				DAB29C591B95393600DF52FD /* rapidjsonfullprectest.cpp in Sources */,
+				DAB29C541B9538F700DF52FD /* main.cpp in Sources */,
+				DAB29C4A1B9538E300DF52FD /* memorystat.cpp in Sources */,
+				DAB29C581B95393600DF52FD /* rapidjsonautoutftest.cpp in Sources */,
+				DAB29C561B95392C00DF52FD /* nlohmanntest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB29C5D1B953A1900DF52FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8246631B965CE900546050 /* rapidjsonvanillatest.cpp in Sources */,
+				DA8245E41B953DA300546050 /* memorystat.cpp in Sources */,
+				DAB29C7B1B953A1900DF52FD /* jsonstatmain.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA8246101B9657A800546050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"USE_MEMORYSTAT=0",
+					"TEST_PARSE=1",
+					"TEST_STRINGIFY=0",
+					"TEST_PRETTIFY=0",
+					"TEST_TEST_STATISTICS=1",
+					"TEST_SAXROUNDTRIP=0",
+					"TEST_SAXSTATISTICS=0",
+					"TEST_SAXSTATISTICSUTF16=0",
+					"TEST_CONFORMANCE=0",
+					"TEST_INFO=0",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = jsonstat_rapidjsonautoutftest;
+			};
+			name = Debug;
+		};
+		DA8246111B9657A800546050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"USE_MEMORYSTAT=0",
+					"TEST_PARSE=1",
+					"TEST_STRINGIFY=0",
+					"TEST_PRETTIFY=0",
+					"TEST_TEST_STATISTICS=1",
+					"TEST_SAXROUNDTRIP=0",
+					"TEST_SAXSTATISTICS=0",
+					"TEST_SAXSTATISTICSUTF16=0",
+					"TEST_CONFORMANCE=0",
+					"TEST_INFO=0",
+					NDEBUG,
+				);
+				PRODUCT_NAME = jsonstat_rapidjsonautoutftest;
+			};
+			name = Release;
+		};
+		DA8246381B965BD100546050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"USE_MEMORYSTAT=0",
+					"TEST_PARSE=1",
+					"TEST_STRINGIFY=0",
+					"TEST_PRETTIFY=0",
+					"TEST_TEST_STATISTICS=1",
+					"TEST_SAXROUNDTRIP=0",
+					"TEST_SAXSTATISTICS=0",
+					"TEST_SAXSTATISTICSUTF16=0",
+					"TEST_CONFORMANCE=0",
+					"TEST_INFO=0",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = jsonstat_rapidjsonfullprectest;
+			};
+			name = Debug;
+		};
+		DA8246391B965BD100546050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"USE_MEMORYSTAT=0",
+					"TEST_PARSE=1",
+					"TEST_STRINGIFY=0",
+					"TEST_PRETTIFY=0",
+					"TEST_TEST_STATISTICS=1",
+					"TEST_SAXROUNDTRIP=0",
+					"TEST_SAXSTATISTICS=0",
+					"TEST_SAXSTATISTICSUTF16=0",
+					"TEST_CONFORMANCE=0",
+					"TEST_INFO=0",
+					NDEBUG,
+				);
+				PRODUCT_NAME = jsonstat_rapidjsonfullprectest;
+			};
+			name = Release;
+		};
+		DA8246601B965C5D00546050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"USE_MEMORYSTAT=0",
+					"TEST_PARSE=1",
+					"TEST_STRINGIFY=0",
+					"TEST_PRETTIFY=0",
+					"TEST_TEST_STATISTICS=1",
+					"TEST_SAXROUNDTRIP=0",
+					"TEST_SAXSTATISTICS=0",
+					"TEST_SAXSTATISTICSUTF16=0",
+					"TEST_CONFORMANCE=0",
+					"TEST_INFO=0",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = jsonstat_rapidjsoninsitutest;
+			};
+			name = Debug;
+		};
+		DA8246611B965C5D00546050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"USE_MEMORYSTAT=0",
+					"TEST_PARSE=1",
+					"TEST_STRINGIFY=0",
+					"TEST_PRETTIFY=0",
+					"TEST_TEST_STATISTICS=1",
+					"TEST_SAXROUNDTRIP=0",
+					"TEST_SAXSTATISTICS=0",
+					"TEST_SAXSTATISTICSUTF16=0",
+					"TEST_CONFORMANCE=0",
+					"TEST_INFO=0",
+					NDEBUG,
+				);
+				PRODUCT_NAME = jsonstat_rapidjsoninsitutest;
+			};
+			name = Release;
+		};
+		DAB28B1F1B9519E500DF52FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../thirdparty,
+					../../thirdparty/rapidjson/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DAB28B201B9519E500DF52FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../thirdparty,
+					../../thirdparty/rapidjson/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DAB28B221B9519E500DF52FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"USE_MEMORYSTAT=0",
+					"TEST_PARSE=1",
+					"TEST_STRINGIFY=0",
+					"TEST_PRETTIFY=0",
+					"TEST_TEST_STATISTICS=1",
+					"TEST_SAXROUNDTRIP=0",
+					"TEST_SAXSTATISTICS=0",
+					"TEST_SAXSTATISTICSUTF16=0",
+					"TEST_CONFORMANCE=0",
+					"TEST_INFO=0",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAB28B231B9519E500DF52FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"USE_MEMORYSTAT=0",
+					"TEST_PARSE=1",
+					"TEST_STRINGIFY=0",
+					"TEST_PRETTIFY=0",
+					"TEST_TEST_STATISTICS=1",
+					"TEST_SAXROUNDTRIP=0",
+					"TEST_SAXSTATISTICS=0",
+					"TEST_SAXSTATISTICSUTF16=0",
+					"TEST_CONFORMANCE=0",
+					"TEST_INFO=0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAB29C291B95299400DF52FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"USE_MEMORYSTAT=0",
+					"TEST_PARSE=1",
+					"TEST_STRINGIFY=0",
+					"TEST_PRETTIFY=0",
+					"TEST_TEST_STATISTICS=1",
+					"TEST_SAXROUNDTRIP=0",
+					"TEST_SAXSTATISTICS=0",
+					"TEST_SAXSTATISTICSUTF16=0",
+					"TEST_CONFORMANCE=0",
+					"TEST_INFO=0",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = jsonstat_nlohmanntest;
+			};
+			name = Debug;
+		};
+		DAB29C2A1B95299400DF52FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"USE_MEMORYSTAT=0",
+					"TEST_PARSE=1",
+					"TEST_STRINGIFY=0",
+					"TEST_PRETTIFY=0",
+					"TEST_TEST_STATISTICS=1",
+					"TEST_SAXROUNDTRIP=0",
+					"TEST_SAXSTATISTICS=0",
+					"TEST_SAXSTATISTICSUTF16=0",
+					"TEST_CONFORMANCE=0",
+					"TEST_INFO=0",
+					NDEBUG,
+				);
+				PRODUCT_NAME = jsonstat_nlohmanntest;
+			};
+			name = Release;
+		};
+		DAB29C511B9538E300DF52FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__STDC_FORMAT_MACROS=1",
+					XCODE,
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = nativejson;
+			};
+			name = Debug;
+		};
+		DAB29C521B9538E300DF52FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__STDC_FORMAT_MACROS=1",
+					XCODE,
+					NDEBUG,
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = nativejson;
+			};
+			name = Release;
+		};
+		DAB29C811B953A1900DF52FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"USE_MEMORYSTAT=0",
+					"TEST_PARSE=1",
+					"TEST_STRINGIFY=0",
+					"TEST_PRETTIFY=0",
+					"TEST_TEST_STATISTICS=1",
+					"TEST_SAXROUNDTRIP=0",
+					"TEST_SAXSTATISTICS=0",
+					"TEST_SAXSTATISTICSUTF16=0",
+					"TEST_CONFORMANCE=0",
+					"TEST_INFO=0",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = jsonstat_rapidjsontest;
+			};
+			name = Debug;
+		};
+		DAB29C821B953A1900DF52FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"USE_MEMORYSTAT=0",
+					"TEST_PARSE=1",
+					"TEST_STRINGIFY=0",
+					"TEST_PRETTIFY=0",
+					"TEST_TEST_STATISTICS=1",
+					"TEST_SAXROUNDTRIP=0",
+					"TEST_SAXSTATISTICS=0",
+					"TEST_SAXSTATISTICSUTF16=0",
+					"TEST_CONFORMANCE=0",
+					"TEST_INFO=0",
+					NDEBUG,
+				);
+				PRODUCT_NAME = jsonstat_rapidjsontest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA82460F1B9657A800546050 /* Build configuration list for PBXNativeTarget "jsonstat_rapidjsonautoutftest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8246101B9657A800546050 /* Debug */,
+				DA8246111B9657A800546050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA8246371B965BD100546050 /* Build configuration list for PBXNativeTarget "jsonstat_rapidjsonfullprectest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8246381B965BD100546050 /* Debug */,
+				DA8246391B965BD100546050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA82465F1B965C5D00546050 /* Build configuration list for PBXNativeTarget "jsonstat_rapidjsoninsitutest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8246601B965C5D00546050 /* Debug */,
+				DA8246611B965C5D00546050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB28B151B9519E500DF52FD /* Build configuration list for PBXProject "jsontest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB28B1F1B9519E500DF52FD /* Debug */,
+				DAB28B201B9519E500DF52FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB28B211B9519E500DF52FD /* Build configuration list for PBXNativeTarget "jsonstat_dropboxjson11test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB28B221B9519E500DF52FD /* Debug */,
+				DAB28B231B9519E500DF52FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB29C281B95299400DF52FD /* Build configuration list for PBXNativeTarget "jsonstat_nlohmanntest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB29C291B95299400DF52FD /* Debug */,
+				DAB29C2A1B95299400DF52FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB29C501B9538E300DF52FD /* Build configuration list for PBXNativeTarget "nativejson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB29C511B9538E300DF52FD /* Debug */,
+				DAB29C521B9538E300DF52FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB29C801B953A1900DF52FD /* Build configuration list for PBXNativeTarget "jsonstat_rapidjsontest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB29C811B953A1900DF52FD /* Debug */,
+				DAB29C821B953A1900DF52FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB28B121B9519E500DF52FD /* Project object */;
+}

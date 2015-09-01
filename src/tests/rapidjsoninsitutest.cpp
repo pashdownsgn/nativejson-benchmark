@@ -5,3 +5,5 @@
 #define RapidjsonParseResult RapidjsonParseInsituResult
 
 #include "rapidjsontest.cpp"
+
+REGISTER_TEST(RapidjsonInsituTest);

@@ -3,3 +3,5 @@
 #define TEST_CLASS RapidjsonFullPrecTest
 
 #include "rapidjsontest.cpp"
+
+REGISTER_TEST(RapidjsonFullPrecTest);

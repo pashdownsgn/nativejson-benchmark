@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <cstdio>
 #include <cstring>
+#include <unistd.h>
 #if defined(_MSC_VER) || defined(__CYGWIN__)
 #include <process.h>
 #else
@@ -88,8 +89,11 @@ static bool ReadFiles(const char* path, TestJsonList& testJsons) {
     char fullpath[FILENAME_MAX];
     sprintf(fullpath, path, "data.txt");
     FILE* fp = fopen(fullpath, "r");
-    if (!fp)
+	if (!fp) {
+//		char realpath[FILENAME_MAX];
+//		fprintf(stderr, "Cannot open %s%s", getcwd(realpath, sizeof(realpath)), fullpath);
         return false;
+	}
 
     // Currently use RapidJSON to generate reference statistics
     TestList& tests = TestManager::Instance().GetTests();
@@ -676,7 +680,12 @@ static void BenchCodeSize(const TestBase& test, const TestJsonList& testJsons, F
 
     // Assemble a full path
     char fullpath[FILENAME_MAX];
+#ifdef XCODE
+	if (!filename_suffix) filename_suffix = "";
+	sprintf(fullpath, "%s%cjsonstat_%s", path, cSeparator, testBaseName);
+#else
     sprintf(fullpath, "%s%cjsonstat%cjsonstat_%s%s", path, cSeparator, cSeparator, testBaseName, filename_suffix);
+#endif
 
     char * const argv[] = { fullpath, testJsons.front().fullpath, NULL };
 #ifdef _MSC_VER
@@ -1068,7 +1077,9 @@ int main(int, char* argv[]) {
         // Read files
         TestJsonList testJsons;
         if (!ReadFiles("../data/%s", testJsons))
-            ReadFiles("../../data/%s", testJsons);
+            if (!ReadFiles("../../data/%s", testJsons))
+				if (!ReadFiles("../../../data/%s", testJsons))
+					ReadFiles("../../../../data/%s", testJsons);
 
         // sort tests
         TestList& tests = TestManager::Instance().GetTests();
