@@ -9,5 +9,7 @@ src/machine.h
 .DS_Store
 *.pbxuser
 *.xcworkspace
-xcuserdata/
 xcode/jsontest/build/
+**/xcuserdata/
+**/xcode/build/
+**/xcode5/build/
