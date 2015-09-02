@@ -1,5 +1,5 @@
 bin/*
-build/gmake
+build/gmake/
 build/vs*/
 intermediate
 thirdparty/include/yajl
