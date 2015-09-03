@@ -84,7 +84,7 @@ public:
     virtual StringResultBase* Stringify(const ParseResultBase* parseResult) const {
         const NlohmannParseResult* pr = static_cast<const NlohmannParseResult*>(parseResult);
         NlohmannStringResult* sr = new NlohmannStringResult;
-        sr->s = pr->root.dump();
+        sr->s = pr->root.dump2();
         return sr;
     }
 #endif
